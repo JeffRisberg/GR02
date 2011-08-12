@@ -1,0 +1,58 @@
+
+#companybox {
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	border: 5px solid #2F6FB0;
+	background: #FFFFFF;
+	width:665px;
+	height:750px;
+}
+
+#column1	{
+	float:left;
+	padding-left:15px;
+	padding-top:15px;
+	width:450px;
+	border-right: 1px solid #E1E1E1;
+	color:#636363;
+	font-family: Arial,sans-serif;
+	font-size:13px;
+}
+
+#column2	{
+	float:left;
+	padding-left:15px;
+	padding-top:15px;
+	width:180px;
+	color:#7A7A7A;
+	font-family: Arial,sans-serif;
+	font-size:13px;
+}
+
+#row1	{
+	float:left;
+	width:225px;
+	color:#636363;
+}
+
+#dealbox	{
+	padding-left:5px;
+	width:150px;
+	height:100px;
+	border:1px solid #636363;
+	color:#636363;
+}
+
+.grey {
+	color: #636363;
+}
+
+.greybold {
+	color: #636363;
+	font-weight: bold;
+}
+
+.blue	{
+	color: #3C78BE;
+}
+

@@ -1,0 +1,7075 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-size: 100%;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: none;
+}
+
+table tr.alt {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/table/bg_alt.png?v=1577907301);
+}
+
+button,input.button,a.button {
+	cursor: pointer;
+}
+
+hr {
+	height: 1px;
+	color: #ccc;
+	background-color: #ccc;
+	padding: 0;
+	margin: 2em 0;
+}
+
+pre,code,.code {
+	font-size: 13px;
+	font-family: Monaco, 'Courier New', Courier, monospace !important;
+}
+
+.dy-subtext,blockquote {
+	font-style: italic;
+}
+
+pre,blockquote {
+	margin: 20px 0;
+	border-left: 2px solid #e1e1e1;
+	padding-left: 10px;
+}
+
+object[type="application/x-shockwave-flash"] {
+	-moz-user-focus: ignore;
+}
+
+.feed-story:after,#xg_navigation:after,#xg_navigation ul:after,#xg_body:after,.xg_module:after,.xg_module_edit:after,.xg_colgroup:after,.xg_module_head:after,.xg_module_body:after,.xg_module_foot:after,.xg_headline:after,dl.vcard:after,#xg_foot:after,#xg_footcontent:after,.easyclear:after,.dy-clearfix:after
+	{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.feed-story,#xg_navigation,#xg_navigation ul,#xg_body,.xg_module,.xg_module_edit,.xg_colgroup,.xg_module_head,.xg_module_body,.xg_module_foot,.xg_headline,dl.vcard,#xg_foot,#xg_footcontent,.easyclear,.dy-clearfix
+	{
+	*zoom: 1;
+}
+
+p,ul,ol,dl {
+	margin: 5px 0;
+}
+
+h1 .count {
+	font-size: 80%;
+}
+
+h1 {
+	font-size: 20px;
+	margin: 10px 0;
+	line-height: 1.2em;
+}
+
+h2 {
+	font-size: 16px;
+	margin: 5px 0;
+	line-height: 20px;
+}
+
+h3 {
+	font-size: 14px;
+	margin: 5px 0;
+	line-height: 18px;
+}
+
+h4 {
+	font-size: 13px;
+	margin: 5px 0;
+	line-height: 16px;
+}
+
+li,dt,dd {
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+
+small,.dy-small {
+	font-size: 90%;
+}
+
+big,.dy-big {
+	font-size: 120%;
+}
+
+.dy-displaynone {
+	display: none;
+}
+
+.block,.dy-bock {
+	display: block;
+}
+
+.hidden,.dy-hidden {
+	visibility: hidden;
+}
+
+.right,.dy-right {
+	float: right !important;
+}
+
+.left,.dy-left {
+	float: left !important;
+}
+
+.align-right,.dy-align-right {
+	text-align: right;
+}
+
+.align-left,.dy-align-left {
+	text-align: left;
+}
+
+.dy-align-center {
+	text-align: center;
+}
+
+.nofloat,.dy-nofloat {
+	float: none !important;
+}
+
+.dy-clear {
+	clear: both !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.disabled,.dy-disabled {
+	opacity: 0.4;
+	cursor: default;
+	*filter: alpha(opacity = 40);
+	*zoom: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+
+.disabled a,.dy-disabled a {
+	cursor: default;
+}
+
+.dy-protect {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	*word-wrap: break-word;
+}
+
+.dy-centered {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.dy-spinner {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/spinner.gif?v=1668720845)
+		no-repeat scroll 0 0;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	font-size: 0;
+	vertical-align: middle;
+}
+
+.dy-noborder {
+	border-color: transparent !important;
+}
+
+.dy-transparency-40 {
+	opacity: 0.4;
+	*filter: alpha(opacity = 40);
+	*zoom: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+
+.dy-transparency-60 {
+	opacity: 0.6;
+	*filter: alpha(opacity = 60);
+	*zoom: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+.dy-locked {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/msg/locked.png?v=3288989490)
+		no-repeat scroll 0 0;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	font-size: 0;
+	vertical-align: middle;
+	*display: inline;
+	*zoom: 1;
+}
+
+.page_tabs .this .dy-locked {
+	border: none !important;
+	padding: 0;
+}
+
+.dy-indent {
+	position: relative;
+	left: 20px;
+}
+
+.dy-bold {
+	font-weight: bold;
+}
+
+.dy-underline {
+	text-decoration: underline;
+}
+
+.xg_lightborder {
+	border-style: solid !important;
+}
+
+.xg_lightbg {
+	border-width: 1px;
+	padding: 2px 7px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/table/bg_alt.png?v=1577907301)
+		repeat;
+}
+
+.page_tabs {
+	position: relative;
+	width: 100%;
+	float: left;
+	clear: right;
+	margin: 5px 0;
+	border-style: solid;
+	border-width: 0 0 1px;
+	z-index: 1;
+}
+
+.page_tabs li,.xg_module_body ul.page_tabs li {
+	list-style: none;
+	float: left;
+	position: relative;
+	margin: 0 0 -1px 5px;
+	line-height: 140%;
+	z-index: 2;
+}
+
+.page_tabs li.this {
+	font-weight: bold;
+}
+
+.page_tabs li.this a {
+	font-weight: bold;
+}
+
+.page_tabs li a,.page_tabs li.this span.xg_tabs {
+	display: block;
+	padding: 2px 7px;
+	text-decoration: none;
+	z-index: 3;
+	position: relative;
+}
+
+.page_tabs li.this a,.page_tabs li.this span.xg_tabs {
+	border-style: solid;
+	border-width: 1px 1px 0;
+	padding: 1px 7px 2px;
+}
+
+.navigation {
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.navigation li {
+	float: left;
+	list-style: none;
+	margin-right: 15px;
+}
+
+.navigation .this {
+	font-weight: bold;
+}
+
+.pagination {
+	clear: both;
+}
+
+.pagination li {
+	float: left;
+	margin: 0 3px 3px 0;
+	list-style: none;
+}
+
+.pagination li a,.pagination li span {
+	display: block;
+	font-weight: bold !important;
+}
+
+.pagination li a {
+	border: 1px solid !important;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.pagination li span {
+	padding: 6px 10px;
+}
+
+.xg_module_body ul.pagination li {
+	list-style: none;
+}
+
+#xn_bar {
+	width: 100%;
+	min-width: 780px;
+	height: 28px;
+	font: 12px/100% Arial, Helvetica, FreeSans, sans-serif;
+}
+
+#xn_bar li,#xn_bar p,#xn_bar ul,#xn_bar fieldset {
+	margin: 0;
+	font-size: 1em;
+}
+
+#xn_bar a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #eee;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat -500px -500px;
+	cursor: pointer;
+	height: 28px;
+	line-height: 28px !important;
+	overflow: hidden;
+	display: block;
+	float: left;
+	padding: 0 8px;
+}
+
+#xn_bar #xn_username:hover {
+	color: #fff !important;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		repeat-x 0 -60px;
+}
+
+#xn_bar input.text {
+	margin-bottom: 3px;
+	padding: 3px;
+	border: 1px solid #ccc;
+	border-top: 1px solid #666;
+	font: 12px Arial, Helvetica, FreeSans, sans-serif !important;
+	color: #666;
+}
+
+#xn_bar #xn_bar_menu {
+	position: relative;
+	height: 26px;
+}
+
+#xn_bar #xn_brand,#xn_bar #xn_gyo_link,#xn_bar #xn_bar_menu_branding {
+	float: left;
+}
+
+#xn_bar #xn_bar_menu_tabs,#xn_bar #xn_bar_menu_more {
+	float: right;
+}
+
+#xn_bar #xn_bar_menu_more {
+	_width: 240px;
+}
+
+#xn_bar #xn_bar_menu_tabs a {
+	padding: 0 5px 0 6px;
+}
+
+#xn_bar #xn_bar_menu_tabs a#xn_username {
+	padding: 0 8px;
+}
+
+#xn_bar #xn_bar_menu_tabs #xn_signout {
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0 5px 0 2px;
+	padding: 0;
+}
+
+#xn_bar #xn_bar_menu_tabs #xn_signout:hover {
+	background: none;
+	text-decoration: underline;
+}
+
+.sponsorLogo {
+	margin-bottom: -3px;
+	margin-left: 2px;
+}
+
+#xn_bar p#xn_brand a {
+	padding: 0;
+}
+
+#xn_bar li {
+	float: left;
+}
+
+#xn_bar li img {
+	float: left;
+	margin: 4px 5px 0 -3px;
+}
+
+#xn_bar #xn_bar_menu_search {
+	margin: 0 5px;
+	float: left;
+}
+
+#xn_bar #xn_bar_menu_search_query {
+	float: left;
+	width: 183px;
+	padding-bottom: 2px;
+	margin-top: 3px;
+	margin-right: 2px;
+}
+
+#xn_bar #xn_bar_menu_search_submit {
+	width: 16px;
+	height: 18px;
+	margin: 4px 6px;
+	padding: 0;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat 0 -130px;
+	text-indent: -9999px;
+}
+
+#xn_bar_menu_admin {
+	display: none;
+}
+
+#xn_bar_menu_branding>a {
+	display: block;
+	float: left;
+	margin: 0 4px;
+	height: 24px;
+	width: 24px;
+	text-indent: -9999px;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/ningbar-manage-icons.png?v=3209487136)
+		no-repeat scroll 0 0;
+	padding: 0 3px 0 0;
+	position: relative;
+}
+
+#xn_bar p#xn_brand a span {
+	display: block;
+	text-indent: -9999px;
+	font-size: 0;
+	line-height: 0;
+	text-decoration: none;
+	overflow: hidden;
+	margin-top: 1px;
+	width: 85px;
+	height: 27px;
+	cursor: pointer;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/ningbar/ningbar-logo-grey.png?v=2940196520)
+		no-repeat 3px 0px;
+}
+
+#xn_bar_menu_branding .icon-manage:hover,#xn_bar_menu_branding .icon-manage-active
+	{
+	background-position: -24px 0;
+}
+
+#xn_bar_menu_branding .icon-appearance,#xn_bar_menu_branding .icon-appearance-loading
+	{
+	background-position: -48px 0;
+}
+
+#xn_bar_menu_branding .icon-appearance-loading:hover {
+	cursor: default !important;
+}
+
+#xn_bar_menu_branding .icon-appearance:hover,#xn_bar_menu_branding .icon-appearance-active
+	{
+	background-position: -72px 0;
+}
+
+.announcement_bar {
+	background-color: #fff;
+	color: #333;
+	position: relative;
+	min-height: 30px;
+	border-width: 0 0 1px;
+	padding: 10px 10px 12px;
+	*padding-bottom: 5px;
+}
+
+.announcement_bar .right {
+	float: none !important;
+	position: relative;
+	*margin-top: -5px;
+}
+
+.announcement_bar img {
+	margin-right: 10px;
+}
+
+.announcement_bar p {
+	margin-top: 5px;
+	*padding-top: 5px;
+}
+
+.announcement_bar a.xg_theme-button-c {
+	text-decoration: underline !important;
+}
+
+.announcement_bar a.xg_icon-close {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat 0 -188px;
+	height: 17px;
+	padding: 0;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	width: 17px;
+	z-index: 1;
+	text-decoration: none;
+}
+
+.poweredbylogo {
+	margin-bottom: -3px;
+}
+
+.dashboard ul,.dashboard li,.xg_module_body ul.dashboard li {
+	list-style: none;
+	margin-left: 0;
+}
+
+.dashboard ul {
+	padding-left: 20px;
+	font-size: .9em;
+}
+
+.dashboard ul li {
+	margin-bottom: 0;
+	clear: both;
+}
+
+.dy-error-msg,.dy-success-msg,.dy-warning-msg,.dy-ning-msg,.errordesc,.success,.notification,.ningmsg
+	{
+	padding: 8px 12px 8px 40px;
+	margin-bottom: 5px;
+	clear: both;
+	color: #5E5E5E !important;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana,
+		sans-serif !important;
+	font-size: 13px !important;
+}
+
+.dy-error-msg,.errordesc {
+	background: #ffe4df
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/msg/error.png?v=4156516424)
+		scroll no-repeat 8px center !important;
+}
+
+.dy-success-msg,.success {
+	background: #e7f7d1
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/msg/success.png?v=4063888121)
+		scroll no-repeat 8px center !important;
+}
+
+.dy-warning-msg,.notification {
+	background: #F7F5D6
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/msg/warning.png?v=4091332354)
+		scroll no-repeat 8px center !important;
+}
+
+.dy-ning-msg,.dy-ning-msg {
+	background: #e9f8fe
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/msg/ning.png?v=565493549)
+		scroll no-repeat 8px center !important;
+}
+
+.dy-error-msg p,.dy-success-msg p,.dy-warning-msg p,.dy-ning-msg p,.dy-error-msg ul,.dy-success-msg ul,.dy-warning-msg ul,.dy-ning-msg ul,.errordesc p,.success p,.notification p,.ningmsg p,.errordesc ul,.success ul,notification ul,.ningmsg ul
+	{
+	padding: 0 !important;
+	margin: 0 !important;
+	color: #5E5E5E !important;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana,
+		sans-serif !important;
+	font-size: 13px !important;
+	font-weight: normal !important;
+}
+
+.dy-error-msg a,.dy-success-msg a,.dy-warning-msg a,.dy-ning-msg a,.errordesc a,.success a,.notification a,.ningmsg a
+	{
+	font-weight: bold !important;
+	color: #5e5e5e !important;
+	text-decoration: underline !important;
+}
+
+.dy-error-msg button,.dy-error-msg .button,.dy-success-msg button,.dy-success-msg .button,.dy-warning-msg button,.dy-warning-msg .button,.dy-ning-msg button,.dy-ning-msg .button,.errordesc button,.errordesc .button,.success button,.success .button,.notification button,.notification .button,.ningmsg button,.ningmsg .button,button.icon
+	{
+	background: #e3e3e3
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		repeat-x scroll 0 0 !important;
+	border: 1px solid #aaa !important;
+	text-decoration: none !important;
+	color: #5E5E5E !important;
+}
+
+button.icon {
+	font-size: 9px !important;
+	padding: .2em .5em 0 !important;
+}
+
+.birthday_msg {
+	background: #f2fbff
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/msg/bday-msg.png?v=3584168857)
+		no-repeat scroll 13px 6px;
+	padding-left: 40px !important;
+	border: 1px solid #00a8ff;
+}
+
+.birthday_msg a {
+	color: #00a8ff !important;
+}
+
+.dy-error label,.dy-counter-error,.dy-error-inline,.dy-modal .dy-error-inline,.error label
+	{
+	color: #ff0000;
+}
+
+.dy-error input,.dy-error textarea,.dy-error select,.error input.textfield,.error input.password,.error input.file,.error select,.error textarea,.swatch_error
+	{
+	background-color: #ffe4df;
+}
+
+a.button,button,input.button {
+	display: inline-block;
+	width: auto;
+	border: 1px solid #aaa;
+	background: #e3e3e3
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		repeat-x 0 0;
+	font-size: 100%;
+	text-decoration: none;
+	color: #333;
+	overflow: visible;
+	white-space: nowrap;
+	padding: .25em .5em .25em;
+}
+
+.dy-label {
+	font-size: 95%;
+	font-weight: bold;
+}
+
+.dy-input-text,.textfield,.password,textarea,select {
+	border: 1px solid #CCC;
+	padding: 2px 3px;
+	color: #666;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	border-top-color: #bbb;
+}
+
+textarea,textarea.dy-input-text {
+	font-family: 'andale mono', 'courier new', monospace;
+	font-size: 12px;
+}
+
+.dy-input-text:focus,.textfield:focus,.password:focus,textarea:focus,select:focus
+	{
+	background-color: #ffe;
+}
+
+.dy-input-single {
+	width: 20px;
+}
+
+.dy-input-narrow {
+	width: 60px;
+}
+
+.dy-input-search {
+	width: 120px;
+}
+
+.dy-input-date {
+	width: 100px;
+	margin-right: 8px;
+}
+
+.dy-input-normal {
+	width: 160px;
+}
+
+.dy-input-medium {
+	width: 250px;
+}
+
+.dy-input-wide {
+	width: 400px;
+}
+
+.dy-input-full {
+	width: 97%;
+	*width: 95%;
+}
+
+.dy-action-secondary,.action-secondary {
+	margin-left: 15px;
+	*display: inline-block;
+	*padding-bottom: 6px;
+}
+
+.dy-counter {
+	padding: 2px 3px;
+	font-size: 80%;
+	text-align: right;
+	*position: absolute;
+	*left: 0;
+}
+
+.dy-form-1,.dy-form-2,.dy-form-3 {
+	margin-top: 10px;
+}
+
+.dy-form-1 dt,.dy-form-1 dd {
+	display: block;
+}
+
+.dy-form-1 dl {
+	margin-bottom: 10px;
+}
+
+.dy-form-1 dt {
+	float: none;
+	width: auto;
+}
+
+.dy-form-1 dd {
+	padding-left: 0;
+}
+
+.dy-form-2 dt,.dy-form-3 dt {
+	float: left;
+	display: block;
+	width: 100px;
+}
+
+.dy-form-2 dd,.dy-form-3 dd {
+	margin-left: 110px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.dy-form-1 dd {
+	position: relative;
+}
+
+.dy-form-2 dt {
+	text-align: right;
+}
+
+.dy-form-2 dl,.dy-form-3 dl {
+	clear: left;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.dy-form-options dt {
+	width: 20px;
+	position: relative;
+	z-index: 2;
+}
+
+.dy-form-options dd {
+	padding-left: 25px;
+	padding-top: 2px;
+	margin-left: 0;
+}
+
+.dy-mock-form dl,.dy-mock-form dd {
+	margin-bottom: 0;
+}
+
+fieldset {
+	margin: 0 0 0.8em;
+	padding-top: 0;
+}
+
+fieldset legend {
+	padding: 0 5px 0 0;
+	font-size: 1.3em;
+	line-height: 1.6em;
+	font-weight: bold;
+}
+
+fieldset div.legend {
+	padding: 0 5px 0 0;
+	font-size: 1.3em;
+	line-height: 1.6em;
+	font-weight: bold;
+}
+
+legend span {
+	display: block;
+}
+
+fieldset fieldset legend {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+fieldset fieldset div.legend {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+fieldset legend.label {
+	font-weight: bold;
+}
+
+p.label {
+	margin-bottom: 0;
+}
+
+fieldset fieldset p label {
+	font-weight: normal !important;
+}
+
+.toggle {
+	cursor: pointer;
+}
+
+a.toggle,.toggle a,a.toggle:hover,.toggle a:hover {
+	text-decoration: none !important;
+}
+
+.toggle span {
+	font-family: Times, "Times New Roman", serif !important;
+	font-weight: normal;
+	display: inline !important;
+}
+
+.xg_module_body label {
+	margin-right: 10px;
+}
+
+.xg_module_body p label {
+	font-weight: bold;
+}
+
+fieldset fieldset p label {
+	font-weight: lighter;
+}
+
+fieldset dl {
+	clear: left;
+}
+
+fieldset dd {
+	margin-left: 0 !important;
+}
+
+fieldset dt {
+	display: block;
+	float: left;
+	clear: left;
+	width: 110px;
+	line-height: 1.6em;
+	font-weight: normal;
+}
+
+fieldset dt label {
+	margin-right: 0 !important;
+}
+
+fieldset dd {
+	padding-left: 120px;
+	margin-bottom: .6em !important;
+	line-height: 1.6em;
+}
+
+fieldset dt.after-clear,fieldset dd.after-clear {
+	padding-top: 1em;
+}
+
+fieldset ul.options {
+	margin-top: 0.25em;
+}
+
+fieldset dl ul.options {
+	font-size: 1em;
+}
+
+fieldset ul.options li {
+	margin-left: 0;
+	list-style: none;
+}
+
+fieldset ul.options li ul li {
+	list-style: none !important;
+	margin-left: 1.5em;
+}
+
+fieldset ol.options li {
+	margin-left: 2em;
+}
+
+fieldset.wide {
+	width: auto;
+}
+
+fieldset.wide dt {
+	width: 170px;
+}
+
+fieldset.wide dd {
+	padding-left: 140px;
+}
+
+fieldset.wide .textfield {
+	width: 290px;
+}
+
+.field-counter {
+	display: block;
+	width: 404px;
+}
+
+.field-counter-num {
+	float: right;
+}
+
+.field-counter-error {
+	color: #ff0000;
+	background-color: #fff4f2;
+	padding: 0 1px;
+}
+
+fieldset.fieldset {
+	display: block;
+	width: 648px;
+	margin: 0 0 1.25em 0 !important;
+	padding: 0 0 0 10px;
+	border: 1px solid #ddd;
+	background: #eee;
+	_display: inline;
+}
+
+fieldset.move {
+	background: #eee
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/drag.gif?v=648164446)
+		repeat-y 1px 1px;
+	cursor: move;
+}
+
+fieldset.fieldset a {
+	color: #06c !important;
+}
+
+fieldset.fieldset a.xg_sprite {
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icons/xg_sprite-0066CC.png?v=2120405407)
+		!important;
+}
+
+fieldset.fieldset dl {
+	margin: 0;
+	color: #333;
+}
+
+fieldset.fieldset dl dt,fieldset.fieldset dl dd {
+	line-height: 1.8em;
+}
+
+fieldset.fieldset dl dt {
+	width: 106px;
+	padding: 7px;
+	text-align: right;
+	font-weight: bold;
+}
+
+fieldset.fieldset dl dd {
+	margin: 0 !important;
+	padding: 6px 0 6px 123px;
+	border-top: 1px solid #f6f6f6;
+	border-bottom: 1px solid #ddd;
+}
+
+fieldset.fieldset label {
+	white-space: nowrap;
+}
+
+fieldset.fieldset dl dd input.checkbox,fieldset.fieldset dl dd input.radio,fieldset.fieldset dl dd input.textfield,fieldset.fieldset dl dd select
+	{
+	vertical-align: baseline;
+}
+
+fieldset.fieldset dl dd input.textfield,fieldset.fieldset dl dd textarea
+	{
+	width: 296px;
+	margin-right: 10px;
+}
+
+fieldset.fieldset dl dd select {
+	width: 300px;
+	margin-right: 10px;
+}
+
+fieldset.fieldset dl dd .swatch_group {
+	float: none;
+}
+
+fieldset.fieldset ul.actions {
+	margin: 0;
+	padding: 5px 10px 5px 110px;
+	border-top: 1px solid #f6f6f6;
+}
+
+fieldset.fieldset ul.actions li {
+	display: inline;
+	margin-left: 10px;
+	list-style: none;
+}
+
+div.fieldset_drop_indicator {
+	position: absolute;
+	width: 660px;
+	border-top: 3px solid #6cf;
+	z-index: 999;
+}
+
+span.context_help_popup {
+	display: block;
+	position: absolute;
+	left: -3px;
+	top: 12px;
+	width: 180px;
+	padding-top: 5px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/context_help.gif?v=650774798)
+		no-repeat left top;
+	z-index: 10;
+}
+
+span.context_help_popup span.context_help_content {
+	display: block;
+	padding: 5px;
+	border: 1px solid #abc;
+	border-top: 0 none;
+	background-color: #def;
+	line-height: 120%;
+	font-size: 11px;
+	color: #666;
+}
+
+span.context_help_popup span.context_help_content a {
+	color: #06c;
+}
+
+img.align-left {
+	margin: 5px 25px 10px 0 !important;
+	float: left !important;
+	display: inline !important;
+}
+
+img.align-right {
+	margin: 5px 0 10px 25px !important;
+	float: right !important;
+	display: inline !important;
+}
+
+img.align-center {
+	margin: 5px auto 10px auto !important;
+	clear: both !important;
+	display: block !important;
+}
+
+img.align-full {
+	margin: 5px 0 10px 0 !important;
+	clear: both !important;
+	display: block !important;
+}
+
+.font-size-1 {
+	font-size: 8pt !important;
+	line-height: normal !important;
+}
+
+.font-size-2 {
+	font-size: 10pt !important;
+	line-height: normal !important;
+}
+
+.font-size-3 {
+	font-size: 12pt !important;
+	line-height: normal !important;
+}
+
+.font-size-4 {
+	font-size: 14pt !important;
+	line-height: normal !important;
+}
+
+.font-size-5 {
+	font-size: 16pt !important;
+	line-height: normal !important;
+}
+
+.font-size-6 {
+	font-size: 20pt !important;
+	line-height: normal !important;
+}
+
+.font-size-7 {
+	font-size: 24pt !important;
+	line-height: normal !important;
+}
+
+#menu_body_body_fontsizeselect_menu span.mceText {
+	line-height: normal;
+}
+
+.nofloat,div.nofloat {
+	float: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.br {
+	white-space: normal !important;
+}
+
+.nobr {
+	white-space: nowrap;
+}
+
+.disabled {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	opacity: 0.4;
+	filter: alpha(opacity = 40);
+	cursor: default;
+	*font-weight: normal !important;
+	zoom: 1;
+}
+
+.disabled .disabled {
+	opacity: 1;
+}
+
+a.disabled,a.disabled:hover {
+	text-decoration: none !important;
+}
+
+.last-child,tr.last-child td {
+	margin-bottom: 0 !important;
+	border-bottom: 0 !important;
+}
+
+.absright {
+	position: absolute;
+	right: 0;
+}
+
+ul.nobullets li {
+	margin-left: 0 !important;
+	list-style: none !important;
+	line-height: 1.2em;
+}
+
+ul.nobullets li em {
+	display: block;
+	font-size: 0.95em;
+	margin-top: 0.2em;
+}
+
+ul.indent,ul.indent ul {
+	padding-left: 25px;
+	margin-left: 0;
+}
+
+.wide {
+	width: 98%;
+}
+
+.subdue {
+	font-weight: normal !important;
+}
+
+.inline {
+	display: inline;
+}
+
+.noborder {
+	border-style: none !important;
+	boreder-width: 0 !important;
+}
+
+.wbr:after {
+	content: "\200B";
+}
+
+body:last-child .wbr:after {
+	content: "";
+}
+
+.arrow {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	_filter: chroma(color = pink) !important;
+}
+
+.left_arrow,.right_arrow {
+	border-top-color: transparent !important;
+	border-bottom-color: transparent !important;
+	border-style: solid !important;
+	border-top-width: 5em !important;
+	border-bottom-width: 5em !important;
+	_border-top-color: pink !important;
+	_border-bottom-color: pink !important;
+}
+
+.left_arrow {
+	border-left: none !important;
+	border-right-width: 2.5em !important;
+}
+
+.square_arrow {
+	border-left-width: 8.7em !important;
+	border-right-width: 6em !important;
+}
+
+.right_arrow {
+	border-left-width: 2.5em !important;
+	border-right: none !important;
+}
+
+.ultracompact-editor textarea,.compact-editor textarea,.full-editor textarea
+	{
+	resize: none;
+}
+
+.texteditor {
+	width: 99%;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+.texteditor p.texteditor_toolbar {
+	margin: 0 !important;
+	padding: 4px 3px 1px 3px;
+	border-bottom: 1px solid #666;
+	background: #E3E3E3
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		repeat-x 0 0;
+}
+
+.form_body {
+	position: relative;
+	height: 1%;
+}
+
+.texteditor p.texteditor_toolbar a {
+	padding: 4px 3px 0 3px;
+	margin: 1px;
+}
+
+.texteditor p.texteditor_toolbar a:hover {
+	background-color: #fcfcfc;
+	margin: 0;
+	border: 1px solid;
+	border-color: #bbb #ccc #ccc #bbb;
+}
+
+.texteditor p.texteditor_toolbar a.image img {
+	margin-top: 6px;
+}
+
+.texteditor textarea {
+	margin: 0;
+	border: 0 none;
+	border-top: 1px solid #ddd;
+	background-image: none;
+	width: 99%;
+	overflow-y: auto;
+}
+
+.hint_textarea {
+	display: block;
+}
+
+.swatch {
+	float: left;
+	display: block;
+	width: 45px;
+	height: 21px;
+	*height: 19px;
+	_height: 20px;
+	padding: 0;
+	border: 1px solid #bbb;
+	border-right: 0 none;
+	margin-right: -3px;
+}
+
+.swatch strong {
+	display: block;
+	padding: 0 3px 0 0;
+	font-size: 0.8em;
+	line-height: 21px;
+	*line-height: 19px;
+	_line-height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.swatch_group {
+	position: relative;
+	margin: 0 10px 0 0;
+	float: left;
+	_padding-right: 4px;
+	_zoom: 1;
+}
+
+p .swatch_group {
+	font-size: .90%;
+}
+
+.swatch_group a {
+	text-decoration: none;
+}
+
+.swatch_group img.photo {
+	margin-right: 0;
+}
+
+.picker {
+	position: absolute;
+	left: 43px;
+	top: 22px;
+	padding: 5px 10px;
+	width: 220px;
+	border: 1px solid #ccc;
+	background: #fff
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/bg-form.png?v=907452556)
+		repeat-x left bottom;
+}
+
+iframe.picker {
+	width: 218px;
+	border: 0 none;
+}
+
+.picker h4 {
+	color: #444;
+	text-align: left !important;
+	float: left;
+}
+
+.picker h5 {
+	color: #444;
+}
+
+.picker a {
+	float: right;
+	margin-left: 7px;
+	font-weight: bold;
+	color: #06c;
+}
+
+.picker p,.picker li {
+	margin-bottom: 0.5em !important;
+	color: #666;
+	font-size: 100%;
+}
+
+.picker input.button {
+	font-weight: bold;
+}
+
+.picker select {
+	margin-left: 1.4em;
+}
+
+iframe.color_picker {
+	height: 202px;
+	width: 222px;
+}
+
+.color_picker {
+	font-size: .8323699em;
+}
+
+.color_picker .heading {
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: .8em;
+	padding-bottom: .3em;
+}
+
+.color_picker .right {
+	margin-right: -4px;
+}
+
+.color_picker .heading a {
+	float: none;
+	margin: 0 4px;
+	color: #00A8FF;
+}
+
+.xg_3col fieldset .color_picker div.right {
+	width: auto !important;
+}
+
+.color_picker table {
+	clear: left;
+	border: 0 none;
+	background-color: transparent !important;
+	width: 100%;
+}
+
+.color_picker table input.textfield {
+	width: 104px;
+}
+
+.color_picker table tbody td {
+	margin: 0;
+	padding: 0;
+	border: 2px solid #fff;
+}
+
+.color_picker table tbody tr.transparent td {
+	height: 20px;
+	line-height: 20px;
+	cursor: pointer;
+	cursor: hand;
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/transparent.gif?v=3348554111);
+	background-position: -1px -3px;
+}
+
+.color_picker table tbody tr.selected td {
+	background-position: -1px 1px;
+}
+
+.color_picker table tbody tr.spacer td {
+	height: 8px;
+	line-height: 8px;
+}
+
+.color_picker table tbody tr.swatches td {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.image_picker {
+	width: 250px;
+	color: #000;
+}
+
+.image_picker li input.file,.image_picker li label.tile {
+	margin: 0.3em 0 0.3em 18px;
+}
+
+.image_picker li input.file {
+	margin-left: 0;
+	white-space: normal;
+	width: 250px;
+	*width: 230px;
+}
+
+#xg #xg_body .image_picker li img {
+	margin: 0.5em 0 0 18px;
+	border: 1px solid #ddd;
+	max-width: 200px;
+	max-height: 200px;
+	height: auto;
+}
+
+.feed-story {
+	background: transparent !important;
+	margin: 5px 0 10px;
+	border-width: 1px 0 0 0;
+	clear: both;
+	_display: inline-block;
+	position: relative;
+	padding-left: 42px;
+}
+
+.feed-story-noicon {
+	padding-left: 0;
+}
+
+.feed-story-ning .feed-string {
+	line-height: 1.3;
+}
+
+.feed-story .rich-more {
+	clear: both;
+	margin-top: .3em;
+}
+
+.feed-story .rich ul li {
+	list-style: none;
+	margin-left: 0;
+}
+
+.feed-story:first-child {
+	border-top: 0;
+	margin-top: 0;
+}
+
+.feed-story .activity-close {
+	position: absolute !important;
+	left: auto !important;
+	right: 0 !important;
+	top: 6px !important;
+	width: 10px !important;
+	height: 10px !important;
+	padding: 2px;
+	text-indent: -9999px;
+	display: none;
+	z-index: 5;
+}
+
+.feed-story-friend {
+	padding-left: 46px;
+	min-height: 31px;
+}
+
+.feed-message .links {
+	margin: 0 0 4px;
+}
+
+.feed-friend-icon {
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.feed-story-friend .item-icon {
+	display: none;
+}
+
+.xg_2col .feed-story,.xg_3col .xg_3col .feed-story {
+	padding: 3px 0px 3px 58px;
+	min-height: 52px;
+}
+
+img.feed-avatar {
+	top: 2px !important;
+	left: 0px !important;
+	position: absolute !important;
+}
+
+.xg_span-7 .feed-string,.xg_span-5 .feed-string,.xg_1col .feed-string {
+	margin-top: 8px;
+}
+
+.xg_span-7 .feed-timestamp,.xg_span-5 .feed-timestamp,.xg_1col .feed-timestamp
+	{
+	margin-top: 2px;
+	clear: both;
+	display: block;
+}
+
+.xg_1col img.feed-avatar {
+	height: 32px;
+	width: 32px !important;
+}
+
+.xg_2col img.feed-avatar,.xg_3col .xg_3col img.feed-avatar {
+	height: 48px;
+	width: 48px;
+	float: left;
+}
+
+.xg_1col .avatar-off,.xg_2col .avatar-off,.xg_3col .xg_3col .avatar-off
+	{
+	min-height: 20px;
+	_height: 20px;
+}
+
+.feed-story .xg_icon {
+	text-indent: -9999px;
+	height: 28px;
+	width: 24px;
+}
+
+.feed-story .xg_icon-miniplayer {
+	position: static;
+	left: auto;
+	top: auto;
+	width: 21px;
+	height: 16px;
+}
+
+.feed-story-ning {
+	min-height: 36px;
+}
+
+.feed-story-ning {
+	padding-left: 50px;
+}
+
+.feed-story-ning .item-icon {
+	text-indent: 0;
+	top: 8px;
+	height: 36px;
+	width: 36px;
+	background: transparent;
+}
+
+.feed-story-friend .item-icon {
+	left: 8px;
+}
+
+.feed-story-footer {
+	padding-left: 0;
+	position: relative;
+	padding-bottom: 2px;
+	clear: both;
+}
+
+.feed-story-footer .more {
+	float: right;
+}
+
+.xg_2col .feed-timestamp,.xg_3col .xg_3col .feed-timestamp {
+	right: 4px;
+	position: absolute;
+	text-align: right;
+	top: 0px;
+	width: 90px;
+	display: block;
+}
+
+.feed-timestamp {
+	white-space: nowrap;
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-size: 9px;
+}
+
+.rich {
+	margin: .3em 0 0;
+	font-size: .90em;
+	float: left;
+}
+
+.xg_2col .feed-story .rich,.xg_3col .xg_3col .feed-story .rich {
+	display: block;
+}
+
+.rich-miniprofiles {
+	margin: .25em 0 .25em;
+	height: 48px;
+}
+
+.rich-miniprofiles a {
+	width: 48px;
+	margin-right: 6px;
+}
+
+.rich-miniprofiles a:last-child {
+	margin-right: 0;
+}
+
+.rich-thumb a,.rich-thumbs a {
+	text-decoration: none;
+}
+
+.rich-thumbs a img {
+	vertical-align: middle;
+	height: auto;
+	margin-right: 10px;
+}
+
+.play-button {
+	text-decoration: none !important;
+	zoom: 1;
+	*vertical-align: middle;
+}
+
+.play-button .xg_icon-miniplayer {
+	*display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.feed-story .play-button img,.feed-story .play-button embed,.feed-story .play-button object
+	{
+	vertical-align: middle;
+	*margin-top: -1px;
+}
+
+.xg_1col .rich-thumbs a img,.xg_span-5 .rich-thumbs a img {
+	margin-bottom: 5px;
+}
+
+.xg_3col .xg_1col .rich-thumbs-48 a img {
+	max-width: 32px;
+}
+
+.xg_1col .rich-thumbs-48 a img,.xg_span-5 .rich-thumbs-48 a img {
+	max-width: 32px;
+	height: auto;
+	width: auto;
+}
+
+.rich-thumbs a:last-child img {
+	margin-right: 0;
+}
+
+.rich-title {
+	font-weight: bold;
+}
+
+.rich-count {
+	font-weight: bold;
+	font-size: 90%;
+	line-height: 1.636em;
+}
+
+.rich-comment {
+	padding-left: 15px;
+	background-repeat: no-repeat;
+	_zoom: 1;
+}
+
+.rich-comment em {
+	font-style: normal;
+	padding-right: 12px;
+	padding-bottom: 2px;
+	background-repeat: no-repeat;
+	*zoom: 1;
+}
+
+.rich-source {
+	font-size: 90%;
+	line-height: 1.636em;
+}
+
+.rich-thumb {
+	float: left;
+	padding-right: 14px;
+}
+
+.rich-thumb-40,.rich-thumb-48,.rich-thumb-64,.rich-thumb-80,.rich-thumb-96,.rich-thumb-98
+	{
+	padding-right: 0;
+}
+
+.rich-96 .rich-thumb {
+	width: 96px;
+}
+
+.rich-40 .rich-detail {
+	margin-left: 54px;
+}
+
+.rich-48 .rich-detail {
+	margin-left: 62px;
+}
+
+.rich-64 .rich-detail {
+	margin-left: 80px;
+}
+
+.rich-80 .rich-detail {
+	margin-left: 94px;
+}
+
+.rich-thumbs-80 img {
+	max-width: 80px !important;
+	max-height: 80px !important;
+	width: auto;
+	height: auto;
+}
+
+.rich-96 img,.rich-thumbs-96 img {
+	max-width: 96px !important;
+	width: auto;
+	height: auto;
+	_width: 96px;
+	_zoom: 1;
+}
+
+.rich-96 .rich-detail {
+	margin-left: 110px;
+}
+
+.rich-98 .rich-detail {
+	margin-left: 112px;
+}
+
+.rich-video .rich-thumb {
+	width: 96px;
+	position: relative;
+}
+
+.rich-video .rich-thumb .item-play {
+	height: 48px;
+	width: 48px;
+	margin-top: -24px;
+	top: 50%;
+	margin-left: -24px;
+	left: 50%;
+	position: absolute;
+	z-index: 2;
+	display: none !important;
+}
+
+.rich-video .rich-detail {
+	margin-left: 110px;
+}
+
+.xg_1col .rich-thumb,.xg_span-5 .rich-thumb,.xg_span-7 .rich-thumb {
+	float: none;
+}
+
+.xg_1col .rich-detail,.xg_span-5 .rich-detail,.xg_span-7 .rich-detail {
+	margin-left: 0;
+}
+
+.feed-story .gift_image {
+	float: left;
+	z-index: 3;
+	position: relative;
+}
+
+.feed-story .gift_name {
+	top: 30%;
+	position: absolute;
+	left: 84px;
+	z-index: 3;
+}
+
+.rich-gifts {
+	position: relative;
+	height: 84px;
+}
+
+.rich-gifts-bg {
+	opacity: .15;
+	filter: alpha(opacity =   15);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	_height: 84px;
+}
+
+.rich-gifts .rich-thumb {
+	padding: 10px;
+	float: none;
+}
+
+.rich-gifts .gift_icon {
+	float: right;
+	position: relative;
+	z-index: 3;
+}
+
+.rich-gifts .gift_tagline {
+	position: absolute;
+	right: 2px;
+	bottom: 0;
+	text-align: right;
+	font-size: 80%;
+	z-index: 3;
+}
+
+.gift_name_hidden {
+	display: none;
+}
+
+.xg_1col .gift_name_hidden,.xg_span-5 .gift_name_hidden {
+	display: inline;
+}
+
+.xg_1col .rich-gifts .gift_icon,.xg_span-5 .rich-gifts .gift_icon,.xg_span-7 .rich-gifts .gift_icon,.xg_1col .rich-gifts .gift_name,.xg_span-5 .rich-gifts .gift_name,.xg_span-7 .rich-gifts .gift_name,.xg_1col .rich-gifts .gift_tagline,.xg_span-5 .rich-gifts .gift_tagline,.xg_span-7 .rich-gifts .gift_tagline
+	{
+	display: none;
+}
+
+.xg_1col .rich-gifts-bg,.xg_span-5 .rich-gifts-bg,.xg_span-7 .rich-gifts-bg
+	{
+	width: 84px;
+	height: 84px;
+}
+
+.xg_1col .rich-excerpt,.xg_span-5 .rich-excerpt,.xg_span-7 .rich-excerpt,.xg_1col .rich-thumb,.xg_span-5 .rich-thumb,.xg_span-7 .rich-thumb,.xg_1col .rich-date,.xg_1col .rich-time,.xg_span-5 .rich-date,.xg_span-5 .rich-time,.xg_span-7 .rich-date,.xg_span-7 .rich-time,.xg_1col .rich-comment,.xg_span-5 .rich-comment,.xg_span-7 .rich-comment
+	{
+	display: none;
+}
+
+.xg_1col .feed-story-album-add .rich-thumb,.xg_span-5 .feed-story-album-add,.xg_span-7 .feed-story-album-add,.xg_1col .feed-story-album-feature .rich-thumb,.xg_span-5 .feed-story-album-feature .rich-thumb,.xg_span-7 .feed-story-album-feature .rich-thumb,.xg_1col .feed-story-photo-add .rich-thumb,.xg_span-5 .feed-story-photo-add .rich-thumb,.xg_span-7 .feed-story-photo-add .rich-thumb,.xg_1col .feed-story-photo-comment .rich-thumb,.xg_span-5 .feed-story-photo-comment .rich-thumb,.xg_span-7 .feed-story-photo-comment .rich-thumb .xg_1col .feed-story-photo-feature .rich-thumb,.xg_span-5 .feed-story-photo-feature .rich-thumb,.xg_span-7 .feed-story-photo-feature .rich-thumb,.xg_1col .feed-story-video-add .rich-thumb,.xg_span-5 .feed-story-video-add .rich-thumb,.xg_span-7 .feed-story-video-add .rich-thumb,.xg_1col .feed-story-video-comment .rich-thumb,.xg_span-5 .feed-story-video-comment .rich-thumb,.xg_span-7 .feed-story-video-comment .rich-thumb,.xg_1col .feed-story-video-feature .rich-thumb,.xg_span-5 .feed-story-video-feature .rich-thumb,.xg_span-7 .feed-story-video-feature .rich-thumb,.xg_1col .feed-story-profile-update .rich-thumb,.xg_span-5 .feed-story-profile-update .rich-thumb,.xg_span-7 .feed-story-profile-update .rich-thumb,.xg_1col .rich-80 .rich-thumb,.xg_span-5 .rich-80 .rich-thumb,.xg_span-7 .rich-80 .rich-thumb,.xg_1col .rich-96 .rich-thumb,.xg_span-5 .rich-96 .rich-thumb,.xg_span-7 .rich-96 .rich-thumb,.xg_1col .rich-72 .rich-thumb,.xg_span-5 .rich-72 .rich-thumb,.xg_span-7 .rich-72 .rich-thumb,.xg_1col .rich-gifts .rich-thumb,.xg_span-5 .rich-gifts .rich-thumb,.xg_span-7 .rich-gifts .rich-thumb
+	{
+	display: block;
+}
+
+.xg_1col .rich-96 .rich-thumb img,.xg_1col .rich-thumbs-96 img,.xg_span-5 .rich-96 .rich-thumb img,.xg_span-5 .rich-thumbs-96 img,.xg_span-7 .rich-96 .rich-thumb img,.xg_span-7 .rich-thumbs-96 img
+	{
+	width: 80px;
+}
+
+.xg_1col .feed-story-profile-update .rich-thumb img,.xg_span-5 .feed-story-profile-update .rich-thumb img,.xg_span-7 .feed-story-profile-update .rich-thumb img
+	{
+	width: 32px;
+	height: 32px;
+}
+
+.xg_1col .feed-string,.xg_span-5 .feed-string,.xg_span-7 .feed-string {
+	margin-right: 0;
+}
+
+.xg_1col .feed-timestamp,.xg_span-5 .feed-timestamp,.xg_span-7 .feed-timestamp
+	{
+	display: block;
+}
+
+.xg_1col .feed-story-photo .rich-thumbs a,.xg_span-5 .feed-story-photo .rich-thumbs a,.xg_span-7 .feed-story-photo .rich-thumbs a
+	{
+	display: block;
+}
+
+.xg_1col .feed-story-video-add .rich-thumb img,.xg_span-5 .feed-story-video-add .rich-thumb img,.xg_span-7 .feed-story-video-add .rich-thumb img,.xg_1col .feed-story-video-comment .rich-thumb img,.xg_span-5 .feed-story-video-comment .rich-thumb img,.xg_span-7 .feed-story-video-comment .rich-thumb img,.xg_1col .feed-story-video-feature .rich-thumb img,.xg_span-5 .feed-story-video-feature .rich-thumb img,.xg_span-7 .feed-story-video-feature .rich-thumb img
+	{
+	max-width: 80px !important;
+}
+
+.xg_1col .feed-story-announcement .rich-thumb,.xg_span-5 .feed-story-announcement .rich-thumb,.xg_span-7 .feed-story-announcement .rich-thumb
+	{
+	display: none;
+}
+
+.xg_1col .feed-story-announcement .rich-excerpt,.xg_span-5 .feed-story-announcement .rich-excerpt,.xg_span-7 .feed-story-announcement .rich-excerpt
+	{
+	display: block;
+}
+
+.feed-message {
+	min-height: 1em;
+}
+
+.xg_span-7 .rich-thumbs a {
+	float: left;
+	margin: 0 9px 9px 0;
+}
+
+.xg_span-7 .rich-thumbs-32 a {
+	margin: 0 4px 4px 0;
+}
+
+.xg_3col .xg_2col .feed-message {
+	width: 320px;
+}
+
+.feed-story .status-bg {
+	filter: alpha(opacity = 15);
+	opacity: .15;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	_background: none !important;
+	position: absolute;
+	height: 100%;
+	width: 96%;
+	z-index: 1;
+}
+
+.feed-story .status {
+	padding: 1px 8px 8px 8px;
+	position: relative;
+	z-index: 2;
+	min-height: 40px;
+	_left: -16px;
+	_top: -7px;
+	_padding-bottom: 0;
+	_font-weight: bold;
+}
+
+.feed-story .status .left_arrow {
+	opacity: .15;
+	filter: alpha(opacity = 15);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	_display: none;
+	left: -8px;
+	*left: -6px;
+	top: 3px;
+	position: absolute;
+	width: 0;
+	font-size: 1.4px;
+	*font-size: 1.8px;
+}
+
+.feed-story .current {
+	margin: .5em 0 0 8px;
+}
+
+.feed-story-status .feed-message {
+	overflow: visible;
+	padding-right: 0 !important;
+	position: relative;
+}
+
+.current .message {
+	display: inline;
+	margin-right: 8px;
+}
+
+.xg_2col .feed-story-status .current,.xg_3col .xg_3col .feed-story-status .current
+	{
+	padding-right: 80px;
+}
+
+.feed-story-status .feed-timestamp {
+	z-index: 8;
+}
+
+.xg_2col .feed-story-status .feed-timestamp,.xg_3col .xg_3col .feed-story-status .feed-timestamp
+	{
+	top: 0px;
+	_top: 6px;
+}
+
+.online {
+	text-indent: -9999px;
+	display: inline-block !important;
+	width: 17px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/online-user.png?v=2631673052)
+		no-repeat 3px 50%;
+}
+
+.vcard img.photo {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-color: #fff;
+}
+
+.vcards {
+	clear: left;
+}
+
+.vcards div.vcard {
+	display: inline;
+	width: 120px;
+	margin: 0 7px 14px 7px;
+	overflow: hidden;
+}
+
+.vcards div.vcard h4,.vcards div.vcard p {
+	margin-bottom: 0;
+}
+
+.vcards div.vcard p {
+	font-size: 110%;
+}
+
+.vcards div.vcard ul li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+dl.vcard {
+	clear: both;
+	margin-bottom: 7px;
+}
+
+.vcards dl.vcard {
+	clear: none;
+	width: 210px;
+	margin: 8px 15px 6px 0;
+	overflow: hidden;
+}
+
+dl.vcard dt {
+	float: none;
+	width: inherit;
+}
+
+dl.vcard dd {
+	padding-left: 38px;
+	margin: 0 !important;
+	font-size: 90%;
+	line-height: 120%;
+	height: 1%;
+}
+
+dl.vcard dd.online {
+	padding-left: 10px !important;
+}
+
+.xg_widget_forum_user dl.vcard dd {
+	*padding-left: 0;
+}
+
+.vcard-grid dl.vcard {
+	margin-left: 6px;
+	width: 100px;
+	float: left;
+	clear: none;
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+
+.vcard-grid dl.begin-row,.vcard-grid dl.clear {
+	clear: left;
+	margin-left: 0;
+}
+
+.vcard-grid dl.vcard img.photo {
+	float: none;
+	display: block;
+	margin-right: 0;
+}
+
+.vcard-grid dl.vcard dd,.profile dl.vcard dd {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.tiny dl.vcard {
+	width: 32px;
+	margin: 0 0 3px 3px !important;
+}
+
+.xg_2col .tiny dl.clear {
+	margin-left: 0 !important;
+}
+
+.tiny dl.vcard img {
+	border: none;
+	margin: 0px;
+}
+
+.tiny dl.vcard dd {
+	display: none;
+}
+
+.xg_module_friends dl.vcard {
+	width: 207px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.xg_module_friends dl.vcard img.photo {
+	border: none;
+	margin-right: 5px;
+	float: left;
+}
+
+.xg_module_friends dl.vcard dd {
+	float: left;
+}
+
+div.vcard-48grid {
+	padding-left: 14px;
+}
+
+div.vcard-48grid .xg_avatar {
+	float: left;
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 0 5px 5px 0;
+	_display: inline;
+}
+
+div.vcard-48grid .fn {
+	overflow: visible;
+}
+
+dl.comment {
+	clear: both;
+	position: relative;
+	margin: 0 0 5px 0;
+	padding-left: 42px;
+	background: none;
+	min-height: 48px;
+	padding-bottom: 5px;
+	border-width: 0 0 1px;
+	border-style: solid;
+}
+
+dl.comment-new,dl.response,dl.comment-new dt,dl.comment-new dd {
+	background: none;
+}
+
+dl.comment dd img {
+	margin: 5px 0;
+	vertical-align: middle;
+}
+
+dl.comment dd embed,dl.comment dd object {
+	display: block;
+	margin: 8px auto;
+}
+
+dl.comment img.photo {
+	position: absolute;
+	left: 0;
+	right: auto;
+	top: 0px;
+	border: 0;
+}
+
+dl.comment dt {
+	width: auto;
+	margin: 0 35px 2px 10px;
+	background: none;
+	font-weight: normal;
+	line-height: 120%;
+}
+
+dl.comment dd {
+	margin: 0 0 0 10px !important;
+	padding: 0px;
+	font-size: 100%;
+}
+
+#comment_form fieldset.nolegend,#comment_form dl.comment,#comment_form dd,#xg_profiles_chatterwall_post fieldset.nolegend,#xg_profiles_chatterwall_post dl.comment,#xg_profiles_chatterwall_post dd
+	{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: 0;
+}
+
+#comment_form dl.comment ul.rating-small {
+	margin-top: 0;
+}
+
+#comments dl.comment dd,#xg_profiles_chatterwall_list dl.comment dd {
+	margin-right: 35px !important;
+}
+
+#xg_profiles_chatterwall_list dl.comment dd.item_approval {
+	margin-right: 0 !important;
+}
+
+a.smalldelete,dl.comment a.delete,#discussionReplies dl.discussion dd.item_delete a.delete,.vcard a.delete
+	{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	width: 8px;
+	height: 8px;
+	float: none;
+	padding: 3px;
+	line-height: 8px;
+	text-indent: -9999px;
+}
+
+.xg_list_members a.smalldelete {
+	float: right;
+	top: auto;
+	right: auto;
+	position: static;
+	display: block;
+}
+
+.body_invited a.delete {
+	margin-left: 5px;
+	width: 10px;
+	height: 10px;
+}
+
+dl.comment dd.actions {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 90%;
+	margin-bottom: 2px;
+}
+
+dl.comment small {
+	display: block;
+}
+
+.xg_colgroup {
+	height: 1%;
+	clear: left;
+}
+
+.xg_1col,.xg_2col,.xg_3col,.xg_4col {
+	float: left;
+	display: inline;
+	margin-left: 5px;
+}
+
+.xg_colgroup .first-child {
+	margin-left: 0;
+}
+
+.xg_1col {
+	width: 183px;
+}
+
+.xg_3col .xg_1col {
+	width: 230px;
+}
+
+.xg_3col .xg_2col {
+	width: 512px;
+}
+
+.xg_widget_main_index_index .xg_3col .xg_2col {
+	padding: 0 5px;
+	width: 502px;
+}
+
+.xg_widget_profiles_profile_show .xg_3col .xg_2col,.xg_widget_profiles_profile_apps .xg_3col .xg_2col
+	{
+	padding: 0 5px;
+	width: 549px;
+}
+
+.xg_3col {
+	width: 747px;
+}
+
+.xg_4col {
+	width: 935px;
+}
+
+.xg_column {
+	float: left;
+	clear: none !important;
+	margin-right: 5px;
+}
+
+.xg_last,.last-child {
+	margin-right: 0;
+}
+
+.xg_span-1 {
+	width: 42px;
+}
+
+.xg_span-2 {
+	width: 89px;
+}
+
+.xg_span-3 {
+	width: 136px;
+}
+
+.xg_span-4 {
+	width: 183px;
+}
+
+.xg_span-5 {
+	width: 230px;
+}
+
+.xg_span-6 {
+	width: 277px;
+}
+
+.xg_span-7 {
+	width: 324px;
+}
+
+.xg_span-8 {
+	width: 371px;
+}
+
+.xg_span-9 {
+	width: 418px;
+}
+
+.xg_span-10 {
+	width: 465px;
+}
+
+.xg_span-11 {
+	width: 512px;
+}
+
+.xg_span-12 {
+	width: 559px;
+}
+
+.xg_span-13 {
+	width: 606px;
+}
+
+.xg_span-14 {
+	width: 653px;
+}
+
+.xg_span-15 {
+	width: 700px;
+}
+
+.xg_span-16 {
+	width: 747px;
+}
+
+.xg_span-17 {
+	width: 794px;
+}
+
+.xg_span-18 {
+	width: 841px;
+}
+
+.xg_span-19 {
+	width: 888px;
+}
+
+.xg_span-20 {
+	width: 935px;
+}
+
+.xg_span-21 {
+	width: 982px;
+	margin-right: 0;
+}
+
+.xg_span-20 img {
+	max-width: 925px;
+}
+
+.xg_span-19 img {
+	max-width: 878px;
+}
+
+.xg_span-18 img {
+	max-width: 831px;
+}
+
+.xg_span-17 img {
+	max-width: 784px;
+}
+
+.xg_span-16 img {
+	max-width: 737px;
+}
+
+.xg_span-15 img {
+	max-width: 690px;
+}
+
+.xg_span-14 img {
+	max-width: 643px;
+}
+
+.xg_span-13 img {
+	max-width: 596px;
+}
+
+.xg_span-12 img {
+	max-width: 549px;
+}
+
+.xg_span-11 img {
+	max-width: 502px;
+}
+
+.xg_span-10 img {
+	max-width: 455px;
+}
+
+.xg_2col img {
+	max-width: 455px;
+}
+
+.xg_span-9 img {
+	max-width: 408px;
+}
+
+.xg_span-8 img {
+	max-width: 361px;
+}
+
+.xg_span-7 img {
+	max-width: 314px;
+}
+
+.xg_span-6 img {
+	max-width: 267px;
+}
+
+.xg_span-5 img {
+	max-width: 220px;
+}
+
+.xg_1col img {
+	max-width: 220px;
+}
+
+.xg_span-4 img {
+	max-width: 173px;
+}
+
+.xg_span-3 img {
+	max-width: 126px;
+}
+
+.xg_span-20 .indented_content img {
+	max-width: 885px;
+}
+
+.xg_span-19 .indented_content img {
+	max-width: 838px;
+}
+
+.xg_span-18 .indented_content img {
+	max-width: 791px;
+}
+
+.xg_span-17 .indented_content img {
+	max-width: 744px;
+}
+
+.xg_span-16 .indented_content img {
+	max-width: 697px;
+}
+
+.xg_span-15 .indented_content img {
+	max-width: 650px;
+}
+
+.xg_span-14 .indented_content img {
+	max-width: 603px;
+}
+
+.xg_span-13 .indented_content img {
+	max-width: 556px;
+}
+
+.xg_span-12 .indented_content img {
+	max-width: 509px;
+}
+
+.xg_span-11 .indented_content img {
+	max-width: 462px;
+}
+
+.xg_span-10 .indented_content img {
+	max-width: 415px;
+}
+
+.xg_2col .indented_content img {
+	max-width: 415px;
+}
+
+.xg_span-9 .indented_content img {
+	max-width: 368px;
+}
+
+.xg_span-8 .indented_content img {
+	max-width: 321px;
+}
+
+.xg_span-7 .indented_content img {
+	max-width: 274px;
+}
+
+.xg_span-6 .indented_content img {
+	max-width: 227px;
+}
+
+.xg_span-5 .indented_content img {
+	max-width: 180px;
+}
+
+.xg_1col .indented_content img {
+	max-width: 180px;
+}
+
+.xg_span-4 .indented_content img {
+	max-width: 133px;
+}
+
+.xg_span-3 .indented_content img {
+	max-width: 86px;
+}
+
+.xg_span-20 .pad img {
+	max-width: 905px;
+}
+
+.xg_span-19 .pad img {
+	max-width: 858px;
+}
+
+.xg_span-18 .pad img {
+	max-width: 811px;
+}
+
+.xg_span-17 .pad img {
+	max-width: 764px;
+}
+
+.xg_span-16 .pad img {
+	max-width: 717px;
+}
+
+.xg_span-15 .pad img {
+	max-width: 670px;
+}
+
+.xg_span-14 .pad img {
+	max-width: 623px;
+}
+
+.xg_span-13 .pad img {
+	max-width: 576px;
+}
+
+.xg_span-12 .pad img {
+	max-width: 529px;
+}
+
+.xg_span-11 .pad img {
+	max-width: 482px;
+}
+
+.xg_span-10 .pad img {
+	max-width: 435px;
+}
+
+.xg_2col .pad img {
+	max-width: 435px;
+}
+
+.xg_span-9 .pad img {
+	max-width: 388px;
+}
+
+.xg_span-8 .pad img {
+	max-width: 341px;
+}
+
+.xg_span-7 .pad img {
+	max-width: 294px;
+}
+
+.xg_span-6 .pad img {
+	max-width: 247px;
+}
+
+.xg_span-5 .pad img {
+	max-width: 200px;
+}
+
+.xg_1col .pad img {
+	max-width: 200px;
+}
+
+.xg_span-4 .pad img {
+	max-width: 153px;
+}
+
+.xg_span-3 .pad img {
+	max-width: 106px;
+}
+
+.xg_span-20 .xg_reset img {
+	max-width: 909px;
+}
+
+.xg_span-19 .xg_reset img {
+	max-width: 862px;
+}
+
+.xg_span-18 .xg_reset img {
+	max-width: 815px;
+}
+
+.xg_span-17 .xg_reset img {
+	max-width: 768px;
+}
+
+.xg_span-16 .xg_reset img {
+	max-width: 721px;
+}
+
+.xg_span-15 .xg_reset img {
+	max-width: 674px;
+}
+
+.xg_span-14 .xg_reset img {
+	max-width: 627px;
+}
+
+.xg_span-13 .xg_reset img {
+	max-width: 580px;
+}
+
+.xg_span-12 .xg_reset img {
+	max-width: 533px;
+}
+
+.xg_span-11 .xg_reset img {
+	max-width: 486px;
+}
+
+.xg_span-10 .xg_reset img {
+	max-width: 439px;
+}
+
+.xg_2col .xg_reset img {
+	max-width: 439px;
+}
+
+.xg_span-9 .xg_reset img {
+	max-width: 392px;
+}
+
+.xg_span-8 .xg_reset img {
+	max-width: 345px;
+}
+
+.xg_span-7 .xg_reset img {
+	max-width: 298px;
+}
+
+.xg_span-6 .xg_reset img {
+	max-width: 251px;
+}
+
+.xg_span-5 .xg_reset img {
+	max-width: 204px;
+}
+
+.xg_1col .xg_reset img {
+	max-width: 204px;
+}
+
+.xg_span-4 .xg_reset img {
+	max-width: 157px;
+}
+
+.xg_span-3 .xg_reset img {
+	max-width: 110px;
+}
+
+.xg_widget_profiles_comment .xg_3col .comment img,.xg_span-16 .comment img,div#discussionReplies .i0 img
+	{
+	max-width: 644px;
+}
+
+.xg_span-15 .comment img {
+	max-width: 597px;
+}
+
+.xg_span-14 .comment img {
+	max-width: 550px;
+}
+
+.xg_span-13 .comment img {
+	max-width: 503px;
+}
+
+.xg_span-12 .comment img {
+	max-width: 456px;
+}
+
+.xg_span-11 .comment img {
+	max-width: 409px;
+}
+
+.xg_span-10 .comment img {
+	max-width: 362px;
+}
+
+.xg_2col .comment img {
+	max-width: 362px;
+}
+
+div#discussionReplies .i1 img {
+	max-width: 614px;
+}
+
+div#discussionReplies .i2 img {
+	max-width: 584px;
+}
+
+div#discussionReplies .i3 img {
+	max-width: 554px;
+}
+
+div#discussionReplies .i4 img {
+	max-width: 524px;
+}
+
+div#discussionReplies .i5 img {
+	max-width: 494px;
+}
+
+div#discussionReplies .i6 img {
+	max-width: 464px;
+}
+
+div#discussionReplies .i7 img {
+	max-width: 434px;
+}
+
+div#discussionReplies .i8 img {
+	max-width: 404px;
+}
+
+div#discussionReplies .i9 img {
+	max-width: 374px;
+}
+
+#xg_themebody>#xg img {
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+
+.xg_span-14 #xg_canvas {
+	width: 653px !important;
+}
+
+.xg_widget_main_index .xg_span-14 .xg_3col,.xg_widget_profiles_profile_show .xg_span-14 .xg_3col,.xg_widget_profiles_profile_apps.xg_span-14 .xg_3col
+	{
+	width: 653px;
+}
+
+.xg_widget_main_index .xg_span-14 .xg_3col .xg_1col,.xg_widget_profiles_profile_show .xg_span-14 .xg_3col .xg_1col,.xg_widget_profiles_profile_apps .xg_span-14 .xg_3col .xg_1col
+	{
+	margin-right: 5px;
+}
+
+.xg_widget_main_index .xg_span-14 .xg_3col .xg_2col,.xg_widget_profiles_profile_show .xg_span-14 .xg_3col .xg_2col,.xg_widget_profiles_profile_apps .xg_span-14 .xg_3col .xg_2col
+	{
+	width: 465px;
+	padding: 0;
+	margin: 0;
+}
+
+#xg {
+	
+}
+
+#xg_body {
+	width: 982px;
+	margin: 0 auto;
+	clear: both;
+	float: none;
+	z-index: 1;
+	position: relative;
+}
+
+#xg_head {
+	clear: left;
+	z-index: 2;
+	*position: relative;
+}
+
+#xg_navigation {
+	*word-wrap: normal;
+	*white-space: nowrap;
+}
+
+#xg_navigation,#xg_navigation ul,#xg_navigation ul li a {
+	display: block;
+}
+
+.xg_module {
+	clear: left;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.xg_module_with_dialog {
+	*position: relative;
+	z-index: 10;
+}
+
+.xg_module form {
+	clear: left;
+}
+
+.xg_module_head {
+	margin-bottom: 1px;
+	padding: 3px 5px;
+	position: relative;
+}
+
+.xg_module_head h2 {
+	float: left;
+	margin: 0;
+	line-height: 1.2em;
+}
+
+.xg_module_head h2 a {
+	text-decoration: none;
+}
+
+.xg_module_head p.edit a.button {
+	position: absolute;
+	right: 1px;
+	top: 3px;
+	padding: 0px 6px 0px 0px !important;
+	margin-right: 5px;
+	display: inline-block;
+	width: auto;
+	border: none;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/button/edit-button.png?v=713430464)
+		no-repeat right top;
+	font-size: 12px;
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+
+.xg_module_head p.edit a.button span {
+	padding: 1px 0px 1px 25px !important;
+	display: inline-block;
+	width: auto;
+	border: none;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/button/edit-button.png?v=713430464)
+		no-repeat left top;
+	overflow: visible;
+	white-space: nowrap;
+	position: relative;
+	color: #333;
+	left: -1px;
+}
+
+.xg_module_head p.edit a:hover.button {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/button/edit-button-hover.png?v=1708281487)
+		no-repeat right top;
+}
+
+.xg_module_head p.edit a:hover.button span {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/button/edit-button-hover.png?v=1708281487)
+		no-repeat left top;
+}
+
+.xg_module_head p.edit a.close {
+	bottom: -3px;
+	padding-bottom: 5px !important;
+	border-bottom: none !important;
+}
+
+.xg_module_options {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #ccc;
+	background: #f3f3f3
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/bg-form.png?v=907452556)
+		repeat-x left top;
+	color: #555;
+	overflow: hidden;
+}
+
+.xg_module_options a {
+	color: #06c !important;
+}
+
+.xg_module_options fieldset {
+	margin: 0;
+	padding: 7px;
+	border-top: 1px solid #ddd;
+}
+
+.xg_1col .xg_module_options fieldset select,.xg_1col .xg_module_options fieldset input.textfield,.xg_1col .xg_module_options fieldset input.dy-input-text
+	{
+	max-width: 110px;
+}
+
+.xg_span-5 .xg_module_options fieldset select,.xg_span-5 .xg_module_options fieldset input.textfield,.xg_span-5 .xg_module_options fieldset input.dy-input-text
+	{
+	max-width: 130px;
+}
+
+.xg_module_options .dy-form-2 dt {
+	width: 60px;
+}
+
+.xg_module_options .dy-form-2 dd {
+	padding-left: 70px;
+}
+
+.xg_module_body {
+	clear: left;
+	margin-bottom: 1px;
+	padding: 5px;
+	position: relative;
+}
+
+.xg_module_body ul li {
+	list-style: square;
+	margin-left: 1.5em;
+}
+
+.xg_module_body.account-links ul li {
+	margin-left: 0.2em;
+	list-style: none;
+}
+
+.pad {
+	padding: 15px;
+}
+
+.pad5 {
+	padding: 5px;
+}
+
+.nopad {
+	padding: 0;
+}
+
+.xg_module_foot {
+	padding: 3px 5px;
+}
+
+.xg_module_foot .left {
+	float: left;
+	margin-right: 8px;
+	line-height: 1.65em;
+}
+
+.xg_module_foot .right {
+	float: right;
+	margin-left: 8px;
+	line-height: 1.65em;
+}
+
+.xg_module_foot a.rss {
+	padding-left: 17px;
+}
+
+#xg_overlay,.xg_overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #333;
+	opacity: 0.5;
+	*filter: alpha(opacity = 50);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	*zoom: 1;
+	z-index: 1000;
+}
+
+#xg_overlay iframe,.xg_overlay iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	filter: mask();
+	height: 100% !important;
+}
+
+.xg_floating_module {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 10020;
+}
+
+.xg_floating_container {
+	position: relative;
+	margin-top: -150px;
+	margin-left: -125px;
+	width: 250px;
+	background-image: none !important;
+	border-width: 3px !important;
+	border-style: solid !important;
+}
+
+.xg_floating_container .xg_module_head {
+	margin-bottom: 0;
+}
+
+.xg_floating_container .xg_module_head h2 {
+	float: none;
+}
+
+.xg_floating_container .xg_module_body {
+	padding: 7px;
+}
+
+.xg_floating_container_wide {
+	margin-top: -250px;
+	margin-left: -225px;
+	width: 450px;
+}
+
+.xg_floating_container_member_picker {
+	width: 774px;
+	margin-top: -150px;
+	margin-left: -387px;
+}
+
+.xg_floating_container_member_picker .xg_module_body {
+	padding: 0;
+	margin: 0;
+}
+
+.xg_floating_container_member_picker .xg_module_body ul li {
+	list-style: none;
+	margin-left: 0;
+}
+
+.xg_floating_module .xg_module_head a.xg_icon-close {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat scroll 0 -188px !important;
+	padding: 0;
+	position: absolute;
+	right: 1px;
+	top: 2px;
+	z-index: 2;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat scroll 0 -188px;
+	height: 17px;
+	width: 17px;
+	display: block;
+}
+
+#confirm_iframe {
+	position: absolute;
+}
+
+.module-plain {
+	margin: 0 !important;
+	padding: 0 !important;
+	border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	background-image: none !important;
+	background-color: none !important;
+	background: none !important;
+	border: none !important;
+	border-color: transparent !important;
+	border-width: 0 !important;
+	border-style: none !important;
+	opacity: 1 !important;
+	filter: alpha(opacity =   100) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+		!important;
+	text-align: left !important;
+}
+
+.module-plain .xg_module_head {
+	height: 18px !important;
+	border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	background-image: none !important;
+	background-color: none !important;
+	background: none !important;
+	border: none !important border-color : transparent !important;
+	border-width: 0 !important;
+	border-style: none !important;
+	padding: 0 !important;
+	content: "" !important;
+	opacity: 1 !important;
+	filter: alpha(opacity =   100) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+		!important;
+	top: 0 !important;
+	left: 0 !important;
+	margin: 0 !important;
+	text-align: left !important;
+}
+
+.module-plain .xg_module_head h2 {
+	display: none !important;
+}
+
+.module-plain .xg_module_body {
+	border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	opacity: 1 !important;
+	filter: alpha(opacity =   100) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+		!important;
+	border: none !important;
+	border-color: transparent !important;
+	border-width: 0 !important;
+	border-style: none !important;
+	top: 0 !important;
+	left: 0 !important;
+	background-image: none !important;
+	background-color: none !important;
+	background: none !important;
+}
+
+.module-plain .xg_module_head input.textfield {
+	display: none !important;
+}
+
+#xg_body.invite_body {
+	padding: 0;
+	min-height: 0;
+	_height: 0;
+}
+
+#xg_body.invite_body .xg_span-10 {
+	border-width: 3px;
+	margin: 0 auto 32px;
+	border-style: solid;
+}
+
+#xg_body.invite_body .xg_module_head h2 {
+	font-size: 20px;
+}
+
+.module_invite .indent {
+	margin: 0 18px;
+}
+
+.module_invite .optional {
+	font-size: .9em;
+	font-weight: normal;
+}
+
+.module_invite small {
+	font-size: .85em;
+}
+
+.module_invite p.small {
+	font-size: 1em;
+}
+
+.module_invite fieldset.nolegend {
+	margin-bottom: 15px;
+}
+
+.module_invite fieldset.nolegend .button {
+	float: left !important;
+}
+
+.share_thumbnail {
+	float: left;
+	width: 110px;
+	margin-right: 10px;
+}
+
+input#invite_subject,textarea#invite_text {
+	width: 450px;
+}
+
+table.invitations input.textfield {
+	width: 220px;
+}
+
+table.invitations th {
+	padding: 0 3px;
+}
+
+table.invitations td {
+	padding: .4em 3px 0 0;
+}
+
+table.invitations .addressbook_popup {
+	left: 200px !important;
+}
+
+ol.share {
+	font-weight: bold;
+}
+
+ol.share li {
+	margin-bottom: 1em;
+}
+
+ol.share input {
+	font-weight: normal;
+}
+
+.friend_list {
+	clear: both;
+	height: 200px;
+	overflow: auto;
+	border: 1px solid;
+	border-color: #666 #ccc #ccc;
+	color: #333 !important;
+	width: 417px;
+	white-space: nowrap;
+	padding: 2px 0;
+	margin-bottom: .3em;
+}
+
+.xg_floating_container .friend_list {
+	height: 160px;
+}
+
+p.friendselect {
+	border: none !important;
+}
+
+.friend_list {
+	position: relative;
+}
+
+.friend_list div {
+	position: relative;
+}
+
+.friend_list ul {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.friend_list li {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 5px;
+	clear: left;
+}
+
+.friend_list li input {
+	cursor: pointer;
+}
+
+.friend_list li label {
+	display: block;
+	padding: 4px 0;
+	margin: 0;
+	height: 24px;
+	border-bottom: 1px solid #ccc;
+}
+
+.friend_list li label .name {
+	overflow: hidden;
+	margin-left: 2px
+}
+
+.friend_list img {
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+}
+
+.friend_list li.member {
+	background: #ccc;
+}
+
+.friend_list li.member input,.friend_list li.member img,.friend_list li.member span
+	{
+	float: left;
+	opacity: .70;
+	filter: alpha(opacity = 70);
+	margin-top: -6px;
+}
+
+.friend_list li.member span small {
+	display: block;
+	font-size: .84em;
+	margin-top: -.2em;
+}
+
+.friend_list li.member input {
+	margin-top: 7px
+}
+
+.friend_list li.member img {
+	margin: 0 3px
+}
+
+.friendlist_options {
+	overflow: auto;
+	padding-bottom: .5em;
+}
+
+.xg_widget_profiles_message .friendlist_options {
+	width: 387px;
+}
+
+.friendlist_options ul,.friendlist_options p {
+	font-size: .88em;
+}
+
+.friendlist_options ul.pagination {
+	float: right;
+	clear: none;
+	font-size: .75em;
+}
+
+.friendlist_options ul li {
+	list-style: none;
+	margin: 0;
+}
+
+.friendlist_options ul li.xg_lightborder {
+	float: left;
+	padding-right: .7em;
+	border-width: 0 1px 0 0 !important;
+	border-style: solid;
+	margin-right: .7em;
+}
+
+.friendlist_options p {
+	float: left;
+	font-size: .87em;
+}
+
+.module_invite .friendlist_options p {
+	font-size: 1.045em;
+}
+
+.friendlist_options p.count {
+	float: right;
+	text-align: right;
+	white-space: nowrap;
+}
+
+#loading_message_container {
+	margin: 1em 0 0 1em;
+}
+
+label.toggle {
+	font-size: .95em;
+	font-weight: normal !important;
+}
+
+label.toggle input {
+	margin: 0 10px 0 5px;
+}
+
+div.tablescroll {
+	height: 300px;
+	overflow: auto;
+	clear: both;
+}
+
+div.tablescroll table.members {
+	width: 407px;
+}
+
+p.tablescrollpadding {
+	padding-right: 17px;
+}
+
+p.tablescroll {
+	border-bottom: 1px dotted;
+	margin-right: 17px;
+}
+
+#invite_friends_container p {
+	font-size: 1em;
+}
+
+.import-brands {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/import-brands.png?v=809032184)
+		no-repeat top right;
+	width: 132px;
+	height: 23px;
+	text-indent: -9999px;
+	display: block;
+}
+
+.sharing_signed_out {
+	padding-bottom: 40px;
+}
+
+.sharing_signed_out .sharing,.sharing_signed_out .xg_span-9 {
+	margin: 20px auto 0;
+}
+
+.sharing_signed_out .sharing .ib {
+	float: left;
+	margin-right: 20px;
+}
+
+.xg_widget_main_invitation_new .xg_2col,.xg_widget_main_invitation_create .xg_2col,.xg_widget_main_invitation_new .xg_span-10,.xg_widget_main_invitation_create .xg_span-10,.xg_widget_groups_invitation_new .xg_span-10,.xg_widget_groups_invitation_create .xg_span-10
+	{
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+.invite-link {
+	padding: 10px;
+	border-width: 1px;
+	margin-bottom: 10px;
+}
+
+table.members {
+	clear: both;
+	table-layout: fixed;
+	width: 100%;
+}
+
+table.members th,table.members td {
+	font-size: 12px;
+}
+
+table.members tr td,table.members tr th {
+	padding: 5px;
+}
+
+table.members td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: top;
+}
+
+table.members thead th {
+	text-align: left;
+}
+
+table.members img.photo {
+	margin: 0 auto;
+	float: none;
+	display: block;
+}
+
+table.members div.member {
+	padding-left: 15px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_members.gif?v=2523846519)
+		no-repeat 0 0;
+}
+
+table.members div.admin {
+	padding-left: 15px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_members.gif?v=2523846519)
+		no-repeat 0 -50px;
+}
+
+table.members div.blocked {
+	padding-left: 15px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_members.gif?v=2523846519)
+		no-repeat 0 -100px;
+}
+
+table.members div.creator {
+	padding-left: 15px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_members.gif?v=2523846519)
+		no-repeat 0 -150px;
+}
+
+table.members div.invited {
+	padding-left: 15px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_members.gif?v=2523846519)
+		no-repeat 0 -200px;
+}
+
+table.members div.requested {
+	padding-left: 15px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_members.gif?v=2523846519)
+		no-repeat 0 -250px;
+}
+
+ol.steps {
+	list-style: none;
+	padding-bottom: 4px;
+	border-bottom: 1px solid;
+}
+
+ol.steps li {
+	margin: .3em 1em .3em 0;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+	float: left;
+	_filter: none;
+	_font-weight: normal;
+}
+
+ol.steps li.current {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+	_filter: none;
+	_font-weight: bold;
+}
+
+a.nolink {
+	text-decoration: none !important;
+}
+
+.xg_headline .ib {
+	margin-top: 4px;
+	float: left;
+	width: 64px;
+}
+
+.xg_headline-img .tb {
+	margin-left: 76px;
+}
+
+.xg_headline .tb ul.byline li.right {
+	float: right;
+	margin-right: 3px;
+}
+
+.module_searchbar input.textfield {
+	width: 172px;
+}
+
+.xg_headline-leaderboards {
+	clear: both;
+}
+
+select.quickpost {
+	width: 100%;
+}
+
+.service-digg {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_services.png?v=417312937)
+		no-repeat 0 0;
+}
+
+.service-delicious {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_services.png?v=417312937)
+		no-repeat 0 -64px;
+}
+
+.service-livespaces {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_services.png?v=417312937)
+		no-repeat 0 -128px;
+}
+
+.service-stumbleupon {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_services.png?v=417312937)
+		no-repeat 0 -192px;
+}
+
+a.facebook,.service-facebook {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_services.png?v=417312937)
+		no-repeat 0 -256px;
+}
+
+.service-myspace {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_services.png?v=417312937)
+		no-repeat 0 -320px;
+}
+
+.service-twitter {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_services.png?v=417312937)
+		no-repeat 0 -384px;
+}
+
+.service-other {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/set_services.png?v=417312937)
+		no-repeat 0 -448px;
+}
+
+a.service-digg,a.service-delicious,a.service-livespaces,a.service-stumbleupon,a.service-facebook,a.service-myspace,a.service-twitter,a.service-other
+	{
+	padding-left: 21px;
+}
+
+.module_members .clist {
+	clear: both;
+}
+
+.xg_widget_main .xg_2col .module_members .body_small ul.clist {
+	padding: 0 2px;
+}
+
+.module_members .xg_module_body li {
+	display: block;
+	float: left;
+	margin: 3px;
+	overflow: hidden;
+}
+
+.module_members .xg_module_body li a {
+	font-weight: normal;
+}
+
+.module_members .body_small .clist li {
+	width: 48px;
+}
+
+.xg_3col .xg_1col .module_members .body_large .clist li {
+	margin: 0px 5px 0px 5px;
+}
+
+.xg_1col .module_members .body_large .clist li,.xg_span-4 .module_members .body_large .clist li
+	{
+	margin-left: 38px;
+	_margin-left: 19px;
+}
+
+.xg_3col .xg_1col .module_members .body_small .clist {
+	padding: 0 0 2px 1px;
+}
+
+.xg_3col .xg_2col .module_members .body_small .clist {
+	padding: 0 3px;
+}
+
+.xg_widget_main .xg_2col .module_members .body_small .clist li {
+	margin: 0 1px 6px;
+}
+
+.xg_1col .module_members .body_small .clist {
+	padding: 0 1px 0 1px;
+}
+
+.xg_3col .xg_1col .module_members .body_small .clist li {
+	margin: 3px 2px 3px 3px;
+}
+
+.xg_2col .module_members .body_large .clist li {
+	margin: 0 0 0 2px;
+	display: inline;
+}
+
+.module_members img {
+	border: 0;
+}
+
+.module_members img,.module_members span {
+	border: 0;
+	display: block;
+}
+
+.module_members .body_large a.img {
+	border-width: 1px;
+	border-style: solid;
+	display: block;
+	width: 94px;
+	height: 94px;
+	background-position: -1px -1px;
+}
+
+.module_members .body_large li p {
+	width: 88px;
+	margin: 0 3px;
+}
+
+.module_members .body_large li {
+	width: 96px;
+	padding-bottom: .8em;
+}
+
+.xg_widget_profiles_profile .xg_3col .xg_1col,.xg_widget_profiles_like .xg_3col .xg_1col
+	{
+	width: 183px;
+}
+
+.xg_widget_main_authorization_newProfile .xg_module_body {
+	margin-bottom: 0px;
+}
+
+.xg_theme .xg_widget_main_authorization #xg_body {
+	background-image: none !important;
+}
+
+.protect,ul.clist li,.fn,.xg_module_head h2,ul.videothumbs li span,.module_feed .xg_module_body,.activityitem,h1,.nobullets li,.nolegend p.indent,.comment-join h3,.comment-join p,.notes_body,.note h3,.note p,div.description,.topic_activity_item,table.categories,table.categories th,table.categories td,.discussion .topic h3,dl.result,.postbody,.title_detail,.account-links p,.xg_signup p,.xg_module_ning p,.module_blog p,.module_blog .blogpost,.module_forum .topic p,.xg_floating_container p,p.message-body,dl.comment dt,dl.comment dd,.xg_widget_events_event_show p,.module_invite form#invite_friends_form,.module_invite .share_description p,blockquote,.category .discussion .tb h3,.category .discussion .tb p,.topmsg,.topmsg p,.navigation .right,.feature-list .feature,.feed-message,.rich-title,.rich-excerpt,.rich-comment,.rich-detail ul.links li,.module_text .xg_module_head,.module_text .xg_module_body,.albuminfo p.album_description,dl.approval_item,.feed-story-status .current,.gift_filters li,.xg_widget_gifts_store_show .gift_filters li.this a.category_link,.body_manage_gift .xg_span-8,.module_about a.button,.member_item h5
+	{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	*word-wrap: break-word;
+}
+
+.xg_widget_main_admin_appProfile dd img.left {
+	padding-bottom: 5px;
+	margin-right: 10px;
+}
+
+.indent  .module_notes div.xg_module_body {
+	overflow: hidden;
+}
+
+.module_invite div.indent {
+	margin-top: .2em;
+}
+
+.module_invite div#email.indent textarea,.module_invite div#friends.indent textarea,.module_invite div#members.indent textarea
+	{
+	width: 415px;
+}
+
+.module_invite textarea {
+	height: 4em;
+}
+
+.module_invite textarea#inviteEmailAddresses {
+	height: 2.5em;
+}
+
+.module_invite {
+	margin-bottom: 0 !important;
+}
+
+.module_invite h3.toggle {
+	margin-top: 0;
+}
+
+.invite_body .xg_headline {
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+
+.module_invite #addressbook p.small {
+	padding-top: .2em;
+}
+
+@media screen and (max-device-width: 480px) {
+	input.button,button.button {
+		-webkit-appearance: none;
+	}
+}
+
+div.flash-area {
+	z-index: 0;
+}
+
+.xg_widget_profiles_profile .online {
+	display: block;
+	width: 140px;
+}
+
+#post_container #post {
+	height: 400px;
+}
+
+#post_container #post {
+	width: 580px;
+}
+
+#xg_module_account .xg_handle {
+	display: none !important
+}
+
+.rating span {
+	float: left;
+}
+
+ul.rating-small,ul.rating-small a:hover,ul.rating-small a:active,ul.rating-small a:focus,ul.rating-small .current
+	{
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/rating/rate-small.gif?v=2706798585)
+		left -1000px repeat-x;
+}
+
+ul.rating-small {
+	float: left;
+	position: relative;
+	width: 65px;
+	height: 13px;
+	overflow: hidden;
+	list-style: none;
+	margin: 3px 0 0 0;
+	padding: 0;
+	background-position: left top;
+}
+
+ul.rating-small li {
+	display: inline;
+}
+
+ul.rating-small a,ul.rating-small .current {
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 0;
+	text-indent: -1000em;
+	height: 13px;
+	line-height: 13px;
+	outline: none;
+	overflow: hidden;
+	border: none;
+}
+
+ul.rating-small a:hover {
+	background-position: left bottom;
+}
+
+ul.rating-small a.stars1 {
+	width: 13px;
+	z-index: 6;
+}
+
+ul.rating-small a.stars2 {
+	width: 26px;
+	z-index: 5;
+}
+
+ul.rating-small a.stars3 {
+	width: 39px;
+	z-index: 4;
+}
+
+ul.rating-small a.stars4 {
+	width: 52px;
+	z-index: 3;
+}
+
+ul.rating-small a.stars5 {
+	width: 65px;
+	z-index: 2;
+}
+
+ul.rating-small .current {
+	z-index: 1;
+	background-position: left center;
+}
+
+.noscript {
+	border: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100px;
+	z-index: 1000;
+}
+
+.noscript div {
+	width: 925px;
+	margin: 0 auto;
+	padding: 1.5em 0;
+}
+
+.clist {
+	list-style: none;
+	clear: both;
+}
+
+.clist li {
+	float: left;
+	list-style: none;
+	margin-left: 0;
+}
+
+.clist h3 {
+	font-size: 100%;
+}
+
+.clist p {
+	margin-bottom: 0;
+	font-size: 90%;
+}
+
+.clist .item_added {
+	display: block;
+}
+
+.module_about .vcard {
+	margin: 0 0 10px;
+}
+
+.module_about a.button {
+	white-space: normal;
+	width: 158px;
+	text-align: center;
+	margin: 0 0 5px;
+}
+
+.module_about a.button,x:-moz-any-link {
+	display: block;
+}
+
+.module_blog .postbody img,.xg_blog .postbody img {
+	margin: 4px 0;
+}
+
+#xg_navigation ul div.xg_subtab {
+	width: 160px;
+	font-size: 12px;
+}
+
+#xg_navigation ul div.xg_subtab ul {
+	width: auto;
+}
+
+#xg_navigation ul div.xg_subtab,#xg_navigation ul div.xg_subtab ul,#xg_navigation ul div.xg_subtab ul li,#xg_navigation ul div.xg_subtab ul li a
+	{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	float: none;
+	display: block;
+}
+
+div.xg_subtab ul,div.xg_subtab li {
+	list-style: none !important;
+}
+
+#xg_navigation ul div.xg_subtab ul li a {
+	padding: .3em .6em;
+	line-height: 1.5em;
+	width: 100%;
+}
+
+.xg_list ul {
+	margin: 0;
+	clear: both;
+	font-size: 0;
+	text-align: left;
+}
+
+.xg_list ul li {
+	margin: 0;
+	list-style: none;
+	vertical-align: top;
+	font-size: 13.1px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.xg_list ul li div.bd {
+	position: relative;
+	zoom: 1;
+}
+
+.xg_list ul li .ib a img {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.xg_list ul li .tb h3 {
+	margin-top: 0;
+	font-size: 100%;
+	display: block;
+}
+
+.xg_list ul li .tb p {
+	font-size: 100%;
+	margin-bottom: 0;
+}
+
+.xg_list ul li .tb p span {
+	display: block;
+}
+
+.xg_list ul li .desc {
+	font-size: 100%;
+}
+
+.xg_list_video .item_description,.xg_list ul li h3,.xg_list ul li p {
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.xg_list_members_feature ul {
+	padding-left: 2px;
+}
+
+.xg_list_members_feature ul li {
+	width: 102px;
+	margin: 1px 2px 0 1px;
+}
+
+.xg_list_members_feature ul li.last-child {
+	margin-right: 0;
+}
+
+.xg_list_members_main ul li {
+	width: 237px;
+	margin: 0 4px 10px;
+	text-align: left;
+}
+
+.xg_list_members_main .ib {
+	width: 96px;
+	float: left;
+}
+
+.xg_list_members_main .tb {
+	margin-left: 104px;
+}
+
+.xg_list_groups_feature ul li {
+	width: 141px;
+	margin: 0 3px 0 2px;
+}
+
+.xg_list_groups_main ul li {
+	width: 354px;
+	margin: 0 6px 10px;
+	text-align: left;
+}
+
+.xg_list_groups_main .ib {
+	width: 82px;
+	float: left;
+}
+
+.xg_list_groups_main .tb {
+	margin-left: 90px;
+}
+
+.xg_list_groups_main .item_quote {
+	font-style: italic;
+}
+
+.xg_list_events_feature ul li {
+	width: 141px;
+	margin: 0 3px;
+}
+
+.xg_list_events_feature .item_status {
+	font-weight: bold;
+}
+
+.body_aplist .clist li {
+	float: none;
+}
+
+table.jCalendar {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.jCalendar th {
+	font-weight: bold;
+	padding: 3px 5px;
+}
+
+table.jCalendar td {
+	padding: 3px 5px;
+	text-align: center;
+}
+
+table.jCalendar td.today {
+	font-weight: bold;
+}
+
+table.jCalendar td:hover,table.jCalendar td.dp-hover {
+	text-decoration: underline;
+}
+
+table.jCalendar td.disabled,table.jCalendar td.disabled:hover {
+	text-decoration: none;
+}
+
+div.dp-calendar-body {
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+}
+
+span.dp-calendar-head {
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	line-height: 1.4em;
+}
+
+div.dp-popup {
+	position: relative;
+	font-size: 10px;
+	padding: 2px;
+	width: 199px;
+	line-height: 1.2em;
+}
+
+div#dp-popup {
+	position: absolute;
+	z-index: 199;
+	border-width: 2px;
+}
+
+div.dp-popup h2 {
+	font-size: 12px;
+	text-align: center;
+	margin: 2px 0;
+	padding: 0;
+}
+
+a#dp-close {
+	font-size: 11px;
+	padding: 4px 0;
+	text-align: center;
+	display: block;
+}
+
+a#dp-close:hover {
+	text-decoration: underline;
+}
+
+div.dp-popup a {
+	text-decoration: none;
+	padding: 3px 2px 0;
+}
+
+div.dp-popup div.dp-nav-prev {
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	width: 100px;
+}
+
+div.dp-popup div.dp-nav-prev a {
+	float: left;
+}
+
+div.dp-popup div.dp-nav-prev a,div.dp-popup div.dp-nav-next a {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+div.dp-popup div.dp-nav-prev a:hover,div.dp-popup div.dp-nav-next a:hover
+	{
+	text-decoration: underline;
+}
+
+div.dp-popup div.dp-nav-prev a.disabled,div.dp-popup div.dp-nav-next a.disabled
+	{
+	cursor: default;
+	text-decoration: none !important;
+}
+
+div.dp-popup div.dp-nav-next {
+	position: absolute;
+	top: 2px;
+	right: 4px;
+	width: 100px;
+}
+
+div.dp-popup div.dp-nav-next a {
+	float: right;
+}
+
+div.dp-popup a.disabled {
+	cursor: default;
+}
+
+div.dp-popup td {
+	cursor: pointer;
+}
+
+div.dp-popup td.disabled {
+	cursor: default;
+}
+
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 3px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/calendar.png?v=1469567281)
+		no-repeat;
+}
+
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+
+input.dp-applied {
+	width: 80px;
+	float: left;
+}
+
+p.bulkupload {
+	margin-left: 40px;
+	margin-bottom: 2px;
+}
+
+.uploader_container {
+	margin: 0 auto;
+	width: 500px;
+}
+
+.bulk_uploader {
+	margin-top: 1em;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.bulk_uploader .large_spinner {
+	position: absolute;
+	left: 229px;
+	top: 129px;
+}
+
+.uploader {
+	height: 300px;
+	border-width: 1px;
+	width: 500px;
+	overflow: auto;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.uploader_error {
+	margin: 5px 0 !important;
+}
+
+.uploader_error h3 {
+	margin-top: 0;
+}
+
+.uploader-nobottom {
+	border-bottom-width: 0;
+}
+
+.uploader_headings {
+	border-width: 1px 1px 0;
+	height: 25px;
+	padding: 5px 0 0;
+	width: 500px;
+}
+
+.uploader_headings .xg_span-8 {
+	padding-left: 5px;
+}
+
+.uploader h5 {
+	font-size: 120%;
+}
+
+.flashObjectContainer {
+	position: absolute;
+	left: 169px;
+	top: 79px;
+	z-index: 5;
+	text-align: center;
+}
+
+.uploader .file a.xg_sprite-delete {
+	margin-top: -5px;
+	*margin-top: 2px;
+}
+
+.uploader img.spinner {
+	margin-top: 3px;
+}
+
+.uploader_actions {
+	width: 500px;
+	border-width: 1px;
+	height: 25px;
+	padding: 5px 0;
+}
+
+.uploader_actions .left_actions {
+	margin-left: 4px;
+	font-size: 110%;
+	padding-top: 2px;
+	float: left;
+}
+
+.uploader_actions .right_actions {
+	margin-right: 5px;
+	font-size: 120%;
+	float: right;
+}
+
+.uploader .file {
+	border-width: 0 0 1px;
+	height: 25px;
+	padding: 5px 0 0 5px;
+	z-index: 1;
+	position: relative;
+	font-size: 110%;
+	overflow: hidden;
+}
+
+.uploader .file_list {
+	overflow-x: hidden;
+}
+
+.uploader .progress {
+	height: 30px;
+	top: -31px;
+	z-index: 0;
+	position: relative;
+	margin-bottom: -30px;
+	width: 1px;
+	opacity: .25;
+	filter: alpha(opacity =   25);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	zoom: 1;
+}
+
+.uploader .progress-error {
+	background-color: #FFF4F2;
+	color: #ff0000;
+	opacity: 1;
+	filter: alpha(opacity =   100);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	zoom: 1;
+}
+
+.uploader_actions .upload_count {
+	float: right;
+	font-size: 100%;
+	padding-top: 3px;
+	margin-right: 15px;
+}
+
+.upload_icon {
+	position: absolute;
+	z-index: 4;
+	width: 160px;
+	height: 140px;
+	left: 170px;
+	top: 80px;
+	overflow: hidden;
+}
+
+.upload_icon div {
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/media_icons.png?v=3090046529)
+		!important;
+	background-repeat: no-repeat !important;
+	width: 160px;
+	height: 140px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.photo_icon div {
+	background-position: 0 0 !important;
+}
+
+.video_icon div {
+	background-position: -160px 0 !important;
+	_left: -160px;
+}
+
+.music_icon div {
+	background-position: -320px 0 !important;
+	_left: -320px;
+}
+
+.upload_icon div a {
+	font-weight: bold;
+	display: block;
+	font-size: 120%;
+	text-align: center;
+	position: absolute;
+	bottom: 12px;
+	margin: 0 10px;
+	width: 140px;
+}
+
+.video_icon div a {
+	_left: 160px;
+}
+
+.music_icon div a {
+	_left: 320px;
+}
+
+.upload_options {
+	padding: 15px 0 15px 15px;
+}
+
+.body_upload_simple {
+	padding: 10px;
+}
+
+p.simpleupload {
+	margin-left: 40px;
+}
+
+.gift_image {
+	height: 64px;
+	width: 64px;
+	text-indent: -9999px;
+	display: block;
+}
+
+.payment_disclaimer {
+	font-size: 80%;
+	line-height: 1.4em;
+	text-align: left;
+	width: 237px;
+	float: left;
+}
+
+.paypal_waiting {
+	position: absolute;
+	z-index: 2;
+	width: 300px;
+	text-align: center;
+	top: 50px;
+	left: 68px;
+	border-width: 1px !important;
+	margin: 0 !important;
+}
+
+.gift_bonus {
+	color: #990000;
+}
+
+.gift_credits_required {
+	position: absolute;
+	right: 12px;
+	font-size: 100%;
+}
+
+.del {
+	display: none;
+	*display: inline;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	margin-left: -1px;
+}
+
+.xg_sprite {
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding-left: 20px;
+	line-height: 1.65em;
+	*line-height: 1.45em;
+	*overflow-y: visible;
+	zoom: 1;
+}
+
+ul.page_tabs li.right .xg_sprite {
+	padding-left: 20px;
+	line-height: 1em;
+}
+
+.xg_sprite-message-send,.xg_sprite-message-forward,.xg_sprite-message-reply,.xg_sprite-message-reply-all,.xg_sprite-message-add,.xg_sprite-message-remove,.xg_sprite-folder-add,.xg_sprite-folder-remove
+	{
+	padding-left: 26px !important;
+}
+
+#xg_manage_status a.xg_sprite-close {
+	padding-left: 20px;
+	line-height: 1.4em;
+}
+
+.xg_icon {
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 17px;
+	width: 17px;
+	padding: 1px 2px 1px 0;
+	_padding: 0;
+	margin: 1px 0 1px 2px;
+	_margin: 0;
+	text-indent: -9999px;
+	font-size: 0 !important;
+	vertical-align: middle;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.xg_module_foot .xg_icon-rss {
+	display: block;
+}
+
+.xg_sprite-add {
+	background-position: left -40px;
+}
+
+.xg_module_foot .xg_sprite-add,.xg_sprite-add-small {
+	background-position: left -73px;
+}
+
+.xg_sprite-about {
+	background-position: left -106px;
+}
+
+.xg_sprite-application-add,.xg_sprite-application-alert,.xg_sprite-application-view
+	{
+	background-position: left -142px;
+}
+
+.xg_sprite-alert {
+	background-position: left -186px;
+}
+
+.xg_sprite-back {
+	background-position: left -221px;
+}
+
+.xg_sprite-ban,.xg_sprite-ban-member {
+	background-position: left -256px;
+}
+
+.xg_sprite-caret-down {
+	background-position: left -292px;
+}
+
+.xg_sprite-check {
+	background-position: left -322px;
+}
+
+.xg_sprite-close {
+	background-position: left -357px;
+}
+
+.xg_sprite-comment {
+	background-position: left -401px;
+}
+
+.xg_sprite-delete {
+	background-position: left -435px;
+}
+
+.xg_sprite-discussion {
+	background-position: left -468px;
+}
+
+.xg_sprite-discussion-open {
+	background-position: left -501px;
+}
+
+.xg_sprite-discussion-close {
+	background-position: left -537px;
+}
+
+.xg_sprite-download {
+	background-position: left -573px;
+}
+
+.xg_sprite-edit,.xg_icon-edit {
+	background-position: left -608px;
+}
+
+.xg_sprite-embed {
+	background-position: left -644px;
+}
+
+.xg_sprite-event {
+	background-position: left -680px;
+}
+
+.xg_sprite-favorite-add {
+	background-position: left -716px;
+}
+
+.xg_sprite-favorite-remove {
+	background-position: left -752px;
+}
+
+.xg_sprite-feature {
+	background-position: left -788px;
+}
+
+.xg_sprite-feature-add {
+	background-position: left -822px;
+}
+
+.xg_sprite-feature-remove {
+	background-position: left -856px;
+}
+
+.xg_sprite-flag {
+	background-position: left -890px;
+}
+
+.xg_sprite-friend {
+	background-position: left -926px;
+}
+
+.xg_sprite-friend-add {
+	background-position: left -962px;
+}
+
+.xg_sprite-friend-pending,.xg_sprite-friend-request,.xg_sprite-friend-request-sent
+	{
+	background-position: left -998px;
+}
+
+.xg_sprite-friend-remove {
+	background-position: left -1034px;
+}
+
+.xg_sprite-folder {
+	background-position: left -1070px;
+}
+
+.xg_sprite-folder-add {
+	background-position: left -1103px;
+}
+
+.xg_sprite-folder-remove {
+	background-position: left -1138px;
+}
+
+.xg_sprite-gift {
+	background-position: left -1173px;
+}
+
+.xg_sprite-gift-help {
+	background-position: left -1227px;
+}
+
+.xg_sprite-gift-make-private {
+	background-position: left -1282px;
+}
+
+.xg_sprite-gift-make-public {
+	background-position: left -1337px;
+}
+
+.xg_sprite-gift-revenue {
+	background-position: left -1390px;
+}
+
+.xg_sprite-gift-stats {
+	background-position: left -1446px;
+}
+
+.xg_sprite-gift-update {
+	background-position: left -1502px;
+}
+
+.xg_sprite-gift-upload {
+	background-position: left -1558px;
+}
+
+.xg_sprite-group {
+	background-position: left -1613px;
+}
+
+.xg_sprite-help {
+	background-position: left -1649px;
+}
+
+.xg_sprite-inbox {
+	background-position: left -1685px;
+}
+
+.xg_sprite-info-view {
+	background-position: left -1718px;
+}
+
+.xg_sprite-leave {
+	background-position: left -1759px;
+}
+
+.links a,.xg_sprite-link-bullet {
+	background-position: left -1793px;
+}
+
+.xg_sprite-manage {
+	background-position: left -1824px;
+}
+
+.xg_sprite-megaphone {
+	background-position: left -1860px;
+}
+
+.xg_sprite-message {
+	background-position: left -1912px;
+}
+
+.xg_sprite-message-add,.xg_sprite-follow-add {
+	background-position: left -1945px;
+}
+
+.xg_sprite-message-block {
+	background-position: left -1979px;
+}
+
+.xg_sprite-message-unblock {
+	background-position: left -2013px;
+}
+
+.xg_sprite-message-forward {
+	background-position: left -2050px;
+}
+
+.xg_sprite-message-new {
+	background-position: left -2083px;
+}
+
+.xg_sprite-message-send {
+	background-position: left -2113px;
+}
+
+.xg_sprite-message-remove,.xg_sprite-follow-remove {
+	background-position: left -2143px;
+}
+
+.xg_sprite-message-reply {
+	background-position: left -2177px;
+}
+
+.xg_sprite-message-reply-all {
+	background-position: left -2212px;
+}
+
+.xg_sprite-network-friend-request {
+	background-position: left -2247px;
+}
+
+.xg_sprite-network-invitation {
+	background-position: left -2286px;
+}
+
+.xg_sprite-network-manage {
+	background-position: left -2322px;
+}
+
+.xg_sprite-next {
+	background-position: left -2360px;
+}
+
+.xg_sprite-permalink {
+	background-position: left -2391px;
+}
+
+.xg_sprite-profile-photo-reset {
+	background-position: left -2420px;
+}
+
+.xg_sprite-play {
+	background-position: left -2454px;
+}
+
+.xg_sprite-previous {
+	background-position: left -2489px;
+}
+
+.xg_sprite-private-network {
+	background-position: left -2520px;
+}
+
+.xg_sprite-public-network {
+	background-position: left -2560px;
+}
+
+.xg_sprite-refresh,.xg_icon-refresh {
+	background-position: left -2600px;
+}
+
+.xg_sprite-rotate,.xg_icon-rotate {
+	background-position: left -2653px;
+}
+
+.xg_sprite-repeat-playback {
+	background-position: left -2689px;
+}
+
+.xg_sprite-rss {
+	background-position: left -2722px;
+}
+
+.xg_sprite-search {
+	background-position: left -2756px;
+}
+
+.xg_sprite-setting {
+	background-position: left -2792px;
+}
+
+.xg_sprite-share {
+	background-position: left -2828px;
+}
+
+.xg_sprite-sort-grid {
+	background-position: left -2864px;
+}
+
+.xg_sprite-sort-list {
+	background-position: left -2900px;
+}
+
+.xg_sprite-star {
+	background-position: left -2936px;
+}
+
+.xg_sprite-view {
+	background-position: left -2970px;
+}
+
+.xg_sprite-view-fullsize {
+	background-position: left -3005px;
+}
+
+.rich-comment {
+	background-position: left -3039px;
+}
+
+.rich-comment em {
+	background-position: right -3145px;
+}
+
+.xg_sprite-blog {
+	background-position: left -3251px;
+}
+
+.xg_sprite-discussion {
+	background-position: left -3287px;
+}
+
+.xg_sprite-event {
+	background-position: left -3321px;
+}
+
+.xg_sprite-invite {
+	background-position: left -3358px;
+}
+
+.xg_sprite-music {
+	background-position: left -3394px;
+}
+
+.xg_sprite-note {
+	background-position: left -3429px;
+}
+
+.xg_sprite-photo {
+	background-position: left -3463px;
+}
+
+.xg_sprite-video {
+	background-position: left -3497px;
+}
+
+.xg_icon-about18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -3532px;
+}
+
+.xg_icon-activityfeed18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -3580px;
+}
+
+.xg_icon-ad18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -3628px;
+}
+
+.xg_icon-badge18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -3676px;
+}
+
+.xg_icon-birthday {
+	width: 16px;
+	height: 16px;
+	background-position: left -3724px;
+}
+
+.xg_icon-birthday18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -3770px;
+}
+
+.xg_icon-blog18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -3818px;
+}
+
+.xg_icon-chat18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -3866px;
+}
+
+.xg_icon-close,.xg_icon-delete,.delete,.smalldelete,.activity-delete,.recipient-delete,.activity-close
+	{
+	background-position: left -3914px;
+}
+
+.xg_icon-comment {
+	background-position: left -3944px;
+}
+
+.xg_icon-discussion18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -3982px;
+}
+
+.xg_icon-event18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4030px;
+}
+
+.xg_icon-group18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4078px;
+}
+
+.xg_icon-help,.xg_icon-help-active {
+	background-position: left -4126px;
+}
+
+.xg_icon-help {
+	opacity: .25;
+	_filter: alpha(opacity =   25);
+	zoom: 1;
+}
+
+.xg_icon-help18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4162px;
+}
+
+.xg_icon-info {
+	background-position: left -4210px;
+}
+
+.xg_icon-invitation-accept {
+	background-position: left -4246px;
+}
+
+.xg_icon-member18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4286px;
+}
+
+.xg_icon-message {
+	background-position: left -4334px;
+}
+
+.xg_icon-miniplayer {
+	height: 16px;
+	width: 21px;
+	background-position: left -4368px;
+}
+
+.xg_icon-music18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4404px;
+}
+
+.xg_icon-music,.xg_icon-music-add {
+	background-position: left -4452px;
+}
+
+.xg_icon-music-feature {
+	background-position: left -4490px;
+}
+
+.xg_icon-network-description18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4528px;
+}
+
+.xg_icon-network-join {
+	background-position: left -4576px;
+}
+
+.xg_icon-announcement,.xg_icon-public-network {
+	background-position: left -4614px;
+}
+
+.xg_icon-network {
+	background-position: left -4654px;
+}
+
+.xg_icon-ningapps18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4690px;
+}
+
+.xg_icon-note18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4738px;
+}
+
+.xg_icon-permalink {
+	background-position: left -4786px;
+}
+
+.xg_icon-photo18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4819px;
+}
+
+.xg_icon-private {
+	width: 16px;
+	height: 16px;
+	background-position: left -4867px;
+}
+
+.xg_icon-rss {
+	width: 16px;
+	height: 16px;
+	background-position: left -4903px;
+}
+
+.xg_icon-rss18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -4939px;
+}
+
+.xg_icon-search {
+	width: 16px;
+	height: 16px;
+	background-position: left -4987px;
+}
+
+.xg_icon-textbox {
+	width: 16px;
+	height: 16px;
+	background-position: left -5023px;
+}
+
+.xg_icon-textbox18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -5059px;
+}
+
+.xg_icon-upload-music {
+	height: 32px;
+	width: 32px;
+	background-position: left -5107px;
+}
+
+.xg_icon-upload-phone {
+	height: 32px;
+	width: 32px;
+	background-position: left -5179px;
+}
+
+.xg_icon-upload-photo {
+	height: 32px;
+	width: 32px;
+	background-position: left -5251px;
+}
+
+.xg_icon-upload-video {
+	height: 32px;
+	width: 32px;
+	background-position: left -5323px;
+}
+
+.xg_icon-video18 {
+	width: 18px;
+	height: 18px;
+	background-position: left -5395px;
+}
+
+.like-button-1 a,.like-link-1 {
+	background-position: left -5444px;
+}
+
+.likebox .like-button-1 a,.likebox .like-link-1 {
+	background-position: left -5442px;
+}
+
+.like-button-2 a,.like-link-2 {
+	background-position: left -5479px;
+}
+
+.likebox .like-button-2 a,.likebox .like-link-2 {
+	background-position: left -5477px;
+}
+
+.like-button-3 a,.like-link-3 {
+	background-position: left -5513px;
+}
+
+.like-button-1 a.liked:hover,.like-button-2 a.liked:hover,.like-button-3 a.liked:hover
+	{
+	background-position: left -5550px;
+}
+
+.xg_sprite-magic-wand {
+	background-position: left -5587px;
+}
+
+.like-link-1,.like-link-2,.like-link-3 {
+	padding-top: 2px;
+	padding-left: 24px;
+	padding-bottom: 3px;
+}
+
+.like-link-3 {
+	padding-top: 3px;
+}
+
+.xg_icon-miniplayer {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/music/gfx/miniplayer.gif?v=2756453949)
+		no-repeat center center !important;
+}
+
+.xg_icon-searchgray {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat 0 -100px !important;
+}
+
+.post_to_twitter {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat 0 -280px !important;
+	padding: 0 0 0 16px;
+	line-height: 1.65em;
+}
+
+.story_box .force_hidden {
+	visibility: hidden !important;
+}
+
+.story_box .post_to_twitter {
+	background-position: 0 -278px !important;
+}
+
+.post_to_facebook {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat 0 -311px !important;
+	padding: 0 0 0 20px;
+}
+
+.story_box .post_to_facebook {
+	background-position: 0 -309px !important;
+}
+
+.story_box .char-limit {
+	display: block;
+}
+
+object[type="application/x-shockwave-flash"] {
+	-moz-user-focus: ignore;
+}
+
+.xg_floating_container .errordesc {
+	margin-bottom: 10px !important;
+}
+
+div.framebusting-banner {
+	border: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 150px;
+	z-index: 2000;
+	color: #666 !important;
+	padding: 10px;
+	background-color: #fbb;
+	margin-bottom: 0 !important;
+}
+
+.share-links a {
+	margin: 0 5px 0 0;
+	float: none;
+}
+
+.htmlbox-toolbar {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/toolbar.png?v=5981230)
+		no-repeat -340px 0;
+	width: 20px;
+	height: 20px;
+	border: 1px transparent solid;
+	cursor: pointer;
+}
+
+.htmlbox-toolbar.button-bold {
+	background-position: 0px 0;
+}
+
+.htmlbox-toolbar.button-link {
+	background-position: -20px 0;
+}
+
+.htmlbox-toolbar.button-hr {
+	background-position: -60px 0;
+}
+
+.htmlbox-toolbar.button-indent {
+	background-position: -80px 0;
+}
+
+.htmlbox-toolbar.button-image {
+	background-position: -100px 0;
+}
+
+.htmlbox-toolbar.button-italic {
+	background-position: -120px 0;
+}
+
+.htmlbox-toolbar.button-center {
+	background-position: -140px 0;
+}
+
+.htmlbox-toolbar.button-left {
+	background-position: -160px 0;
+}
+
+.htmlbox-toolbar.button-right {
+	background-position: -180px 0;
+}
+
+.htmlbox-toolbar.button-ol {
+	background-position: -200px 0;
+}
+
+.htmlbox-toolbar.button-outdent {
+	background-position: -220px 0;
+}
+
+.htmlbox-toolbar.button-striptags,.htmlbox-toolbar.button-unformat {
+	background-position: -240px 0;
+}
+
+.htmlbox-toolbar.button-unlink {
+	background-position: -260px 0;
+}
+
+.htmlbox-toolbar.button-strike {
+	background-position: -280px 0;
+}
+
+.htmlbox-toolbar.button-ul {
+	background-position: -300px 0;
+}
+
+.htmlbox-toolbar.button-underline {
+	background-position: -320px 0;
+}
+
+.htmlbox-toolbar.button-file {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/button/file.gif?v=83068720)
+		no-repeat 2px 1px;
+}
+
+.htmlbox-toolbar.highlight,.editimage-delete.highlight {
+	background-color: #ffffff;
+	padding: 5px 0 0 5px;
+	border: 1px #666 outset;
+}
+
+.htmlbox-toolbar.highlight:hover {
+	background-color: #eff2ff;
+}
+
+.editimage-delete {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #bb0000;
+	cursor: pointer;
+	line-height: 10px;
+	width: 16px;
+	height: 16px;
+	max-width: 16px;
+	max-height: 16px;
+	border: 1px #888 solid;
+	text-indent: -1px;
+	overflow: hidden;
+}
+
+.twitter-box .errors {
+	color: #f00;
+}
+
+.twitter-box .hint_container {
+	position: relative;
+}
+
+.twitter-box span.char-limit {
+	color: #888;
+}
+
+.twitter-box span.char-limit.length-exceeded,.story_box span.char-limit.length-exceeded
+	{
+	color: #f00;
+}
+
+.twitter-box .busy_center {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/spinner.gif?v=1353664345)
+		no-repeat center center;
+}
+
+dd .xg_captcha_container {
+	font-size: 100% !important;
+}
+
+dd .xg_captcha_container .xg_module_head h2 {
+	font-size: 80%;
+}
+
+.xg_captcha_container .xg_floating_container.xg_floating_container_wide.xg_lightborder
+	{
+	width: 333px;
+}
+
+.dy-tooltip {
+	position: absolute;
+	min-height: 32px;
+	z-index: 100000;
+	*zoom: 1;
+}
+
+.dy-tooltip-right {
+	top: -3px;
+}
+
+.dy-tooltip-top {
+	top: 10px;
+}
+
+.dy-tooltip .dy-arrow {
+	position: absolute;
+	left: 0;
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/msg/tooltip-arrow.png?v=3055734683);
+	z-index: 50;
+}
+
+.dy-tooltip-right .dy-arrow {
+	width: 12px;
+	height: 16px;
+	top: 6px;
+	background-position: 0 0;
+}
+
+.dy-tooltip-top .dy-arrow {
+	width: 16px;
+	height: 12px;
+	top: 0;
+	background-position: -16px 0;
+}
+
+.dy-tooltip .dy-content {
+	-moz-box-shadow: 0 0 10px #666;
+	-webkit-box-shadow: 0 0 10px #666;
+	border: 2px solid #e1e1e1;
+	position: absolute;
+	width: 180px;
+	background-color: #FFF;
+	color: #5E5E5E;
+	padding: 5px;
+	z-index: 10;
+	min-height: 15px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size: 12px !important;
+	text-align: left;
+	font-family: 'Lucida Grande', Verdana, sans-serif !important;
+}
+
+.dy-tooltip .xg_sprite,.dy-tooltip .xg_icon {
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icons/xg_sprite-0099CC.png?v=2120405407);
+}
+
+.dy-tooltip-right .dy-content {
+	top: 0;
+	left: 10px;
+}
+
+.dy-tooltip-top .dy-content {
+	bottom: 30px;
+	left: -20px;
+}
+
+.dy-tooltip .dy-content h4 {
+	color: #5e5e5e !important;
+	font-family: 'Lucida Grande', Verdana, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	padding: 0 !important;
+	margin: 0 0 5px !important;
+	text-transform: none !important;
+	text-decoration: none !important;
+}
+
+.dy-tooltip-error {
+	color: #FF0000;
+}
+
+.dy-tooltip button,.dy-tooltip a.button {
+	background: #ED7B09
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/msg/ning-button.png?v=2727407659)
+		repeat-x scroll 0 0 !important;
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+	border: 1px solid #F2B77C !important;
+	font-family: 'Lucida Grande', Verdana, sans-serif !important;
+	font-size: 12px !important;
+	padding: 4px 12px !important;
+	margin-top: 10px !important;
+}
+
+.dy-tooltip a {
+	color: #00B0D8 !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+}
+
+.dy-tooltip a.button {
+	color: #fff !important;
+}
+
+.dashboard .dy-tooltip {
+	z-index: 9999 !important;
+}
+
+.dy-carousel {
+	width: 9999px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.dy-carousel-outer {
+	position: relative;
+}
+
+.dy-carousel-container {
+	overflow: hidden;
+	position: relative;
+}
+
+.dy-carousel-left {
+	position: absolute;
+	left: 0;
+	font-size: 24px;
+	font-weight: bold;
+	z-index: 12;
+}
+
+.dy-carousel-left:hover,.dy-carousel-right:hover {
+	text-decoration: none !important;
+}
+
+.dy-carousel-right {
+	position: absolute;
+	right: 0;
+	font-size: 24px;
+	font-weight: bold;
+	z-index: 12;
+}
+
+.dy-draggable {
+	cursor: move;
+}
+
+.dy-droppable-region {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/droppable-indicator.png?v=2071710948)
+		repeat scroll 0 0;
+	border: 2px inset #AAA;
+}
+
+.dy-draggable-region {
+	cursor: move;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/draggable-indicator.png?v=79778317)
+		repeat-y scroll 0 0;
+}
+
+.dy-modal {
+	_text-align: left;
+	position: fixed;
+	_position: absolute;
+	z-index: 1001;
+	left: 50%;
+	top: 50%;
+	width: 500px;
+	margin-left: -263px;
+	background: #fff !important;
+	border: 5px solid #e1e1e1;
+	padding: 10px 14px;
+	box-shadow: 0 0 20px #111;
+	-webkit-box-shadow: 0 0 20px #111;
+	-moz-box-shadow: 0 0 20px #111;
+}
+
+.xg_floating_container.dy-modal {
+	background: #fff !important;
+	border: 5px solid #e1e1e1 !important;
+}
+
+.xg_floating_container .dy-form-1 textarea {
+	width: 98%;
+}
+
+.dy-modal-close {
+	position: absolute;
+	top: 6px;
+	right: 6px;
+}
+
+.dy-modal-close .xg_icon-close {
+	display: block;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/buttons-ningbar.png?v=1965210230)
+		no-repeat scroll 0 -188px !important;
+	text-indent: -9999px;
+	height: 14px;
+	width: 14px;
+}
+
+.dy-modal-wide {
+	width: 700px;
+	margin-left: -368px;
+}
+
+.dy-modal a.submit,.dy-modal .form-actions a {
+	color: #ED7B09;
+	padding-left: 10px;
+}
+
+.dy-modal p {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	text-transform: none;
+	text-decoration: none;
+	font-variant: normal;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: .4em;
+	color: #5e5e5e;
+}
+
+.dy-modal h3 {
+	margin: 0 10px .5em 0;
+}
+
+.dy-modal h3.after-logo {
+	margin: .5em 0;
+	font-size: 1.1667em;
+}
+
+.dy-modal h3 {
+	font-family: 'Trebuchet MS', Arial, sans-serif !important;
+	text-transform: uppercase !important;
+	font-variant: normal !important;
+	font-size: 20px !important;
+	font-weight: normal !important;
+	text-decoration: none !important;
+	padding: 0;
+	color: #5e5e5e !important;
+}
+
+.dy-modal .button:hover,.xg_floating_container.dy-modal .button:hover,.xg_floating_container.dy-modal .button,.dy-modal .button
+	{
+	background: #ED7B09
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/themes/Linen/button.png?v=2727407659)
+		repeat-x scroll 0 0 !important;
+}
+
+.dy-modal .button {
+	border: 1px solid #F2B77C;
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-variant: normal;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.dy-modal .form-actions a.button,.dy-modal .button {
+	color: #fff;
+	font-size: 15px;
+	padding: 6px 12px;
+}
+
+.extension-connect-module dl {
+	font-size: 1em;
+}
+
+.extension-connect-module p {
+	font-size: 1em;
+}
+
+.extension-connect-module p.xg_lightborder {
+	border-style: solid none none none;
+	border-width: 1px 0 0 0;
+	margin-top: 10px;
+	font-size: .85em;
+}
+
+.extension-connect-module ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+
+.extension-connect-module .dy-label {
+	font-size: 1em;
+}
+
+.extension-connect-left {
+	border-style: none solid none none;
+	border-width: 0 1px 0 0;
+	float: left;
+	width: 50%;
+}
+
+.extension-connect-right {
+	float: left;
+	left: -1px;
+	position: relative;
+	width: 49%;
+	padding-top: 10px;
+}
+
+.narrow-border {
+	border-width: 1px;
+}
+
+.dy-ning {
+	color: #5e5e5e;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	font-size: 12px;
+}
+
+.dy-ning p {
+	margin: 0 0 10px;
+	line-height: 16px;
+}
+
+.dy-ning a {
+	color: #00B0D8;
+	text-decoration: none;
+}
+
+.dy-ning .xg_icon,.dy-ning .xg_sprite {
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icons/xg_sprite-00CCCC.png?v=2120405407);
+}
+
+.dy-ning a:hover {
+	text-decoration: underline;
+}
+
+.dy-ning h1,.dy-ning h2,.dy-ning h3,.dy-ning h4,.dy-ning h5,.dy-ning h6
+	{
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.dy-ning button,.dy-ning button:hover,.dy-ning button:active {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/shared/gfx/ning-button.png?v=3311661763)
+		repeat-x scroll 0 0 #ED7B09;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #ED7D09;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 110%;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	white-space: nowrap;
+}
+
+.dy-ning button:hover {
+	background: #ee7f0a none;
+}
+
+.dy-ning .dy-action-secondary {
+	color: #ED7B09;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.dy-ning .dy-dialog-normal {
+	-moz-box-shadow: 0 0 8px #111;
+	-webkit-box-shadow: 0 0 8px #111;
+}
+
+.dy-ning .dy-dialog .dy-module-head {
+	border-bottom: 1px solid #e1e1e1;
+	padding: 0;
+	margin: 7px 10px 0;
+}
+
+.dy-ning .dy-dialog .dy-module-body {
+	padding: 10px;
+}
+
+.dy-ning .light {
+	color: #959595;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+.dy-ning a.dy-disabled {
+	color: #AAA;
+}
+
+.dy-dropdown,.dy-toggle {
+	cursor: pointer;
+	position: relative;
+	border: 1px solid #CCC;
+	background-color: #EEE;
+	display: inline-block;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	float: left;
+	margin-right: 4px;
+	*display: inline;
+	*zoom: 1;
+}
+
+.dy-swatch {
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-right: 4px;
+	*display: inline;
+	*zoom: 1;
+}
+
+.dy-swatch .dy-swatch-current {
+	height: 22px;
+	width: 30px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	float: left;
+	border: 1px solid #CCC;
+	margin-right: 3px;
+}
+
+.dy-toggle div,.dy-dropdown-current {
+	height: 22px;
+	overflow: hidden;
+}
+
+.dy-toggle a {
+	margin: 4px;
+	width: 18px;
+	text-align: center;
+}
+
+.dy-toggle-active {
+	border-color: #888 #CCC #CCC #888;
+	background-color: #AAA;
+}
+
+.dy-dropdown-current a {
+	margin: 4px;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/icon_arrowdown.png?v=153637960)
+		no-repeat scroll right center;
+}
+
+.dy-toggle a,.dy-toggle a:hover,.dy-dropdown a,.dy-dropdown a:hover {
+	color: #5e5e5e;
+	text-decoration: none;
+	display: block;
+}
+
+.dy-dropdown-list a {
+	padding: 2px 4px 2px 6px;
+}
+
+.dy-dropdown-list a:hover {
+	background-color: #caeef6;
+}
+
+.dy-dropdown-list {
+	padding: 4px 0;
+	margin-top: -1px;
+	position: absolute;
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	left: -1px;
+	-moz-box-shadow: 0 6px 6px #333;
+	-webkit-box-shadow: 0 6px 6px #333;
+	z-index: 100;
+	border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+}
+
+.dy-dropdown-list a.selected {
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/icon_arrowright.png?v=3594074598);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.texteditor table {
+	clear: both;
+}
+
+.gwteditor table {
+	clear: both;
+}
+
+.xg_signup {
+	text-align: center;
+	margin-bottom: 0;
+	padding: 8px;
+	border-width: 3px !important;
+	border-style: solid !important;
+}
+
+.xg_external_signup {
+	text-align: center;
+	border-width: 1px 0 0;
+	margin-top: 10px;
+	margin-bottom: -7px;
+	padding-top: 5px;
+}
+
+.xg_external_signup ul.providers {
+	margin-bottom: 0;
+}
+
+.xg_external_signup ul.providers li {
+	list-style: none !important;
+	display: inline;
+	margin: 0;
+}
+
+.xg_external_signup .mini-service {
+	top: 0;
+}
+
+.xg_theme #xg_themebody #xg.account {
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.signin-module {
+	margin-top: 20px;
+	margin-bottom: 200px;
+	border: 0 !important;
+}
+
+.signin-module h2.xg_lightborder {
+	border-style: none none solid;
+	border-width: 0 0 1px;
+	margin-bottom: 10px;
+}
+
+.signin-module p.xg_lightborder {
+	border-style: none none solid;
+	border-width: 0 0 1px;
+	margin-bottom: 10px;
+}
+
+.signin-about .thumbs {
+	padding-top: 16px;
+}
+
+.signin-left {
+	border-style: none solid none none;
+	border-width: 0 1px 0 0;
+	float: left;
+	width: 350px;
+}
+
+.signin-left .dy-error-msg p {
+	word-wrap: break-word;
+}
+
+.signin-right {
+	border-width: 0 0 0 1px;
+	float: left;
+	left: -1px;
+	padding-left: 15px;
+	position: relative;
+	width: 290px;
+}
+
+.signin-about .appatar {
+	float: left;
+	padding-right: 12px;
+	padding-bottom: 12px;
+}
+
+.services {
+	border-width: 0 0 1px;
+	border-style: none none solid;
+	padding-bottom: 40px;
+}
+
+.service {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/providers-sprite.png?v=2574868079)
+		no-repeat scroll 0 0 transparent;
+	display: block;
+	float: left;
+	font-size: 0;
+	height: 40px;
+	margin: 10px 10px 0 0;
+	text-indent: -9999em;
+	width: 120px;
+}
+
+.services p.dy-clear {
+	padding-top: 10px;
+}
+
+.service-tw {
+	background-position: 0 -40px;
+}
+
+.service-tw:hover {
+	background-position: -120px -40px;
+}
+
+.service-fb {
+	background-position: 0 0;
+}
+
+.service-fb:hover {
+	background-position: -120px 0;
+}
+
+.service-yahoo {
+	background-position: 0 -160px;
+}
+
+.service-yahoo:hover {
+	background-position: -120px -160px;
+}
+
+.service-google {
+	background-position: 0 -200px;
+}
+
+.service-google:hover {
+	background-position: -120px -200px;
+}
+
+#xg.external-auth .dy-error-msg {
+	margin-right: 15px;
+}
+
+.account p.dy-right {
+	padding-left: 5em;
+}
+
+.mini-service {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 16px;
+	width: 16px;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/admin/service-sprite.png?v=4180171103)
+		no-repeat scroll 0 0;
+	position: relative;
+	top: 6px;
+	margin: 2px;
+}
+
+a .mini-service {
+	cursor: pointer;
+}
+
+.mini-service-twitter {
+	background-position: -16px 0;
+}
+
+.mini-service-yahoo {
+	background-position: -32px 0;
+}
+
+.mini-service-google {
+	background-position: -48px 0;
+}
+
+#test-network-label-bar {
+	background: #fff;
+	color: #000;
+	height: 52px;
+	border-bottom: 3px solid #5e5e5e;
+	padding-left: 10px;
+}
+
+#test-network-label-bar #ning-logo {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/test-network-label-logo.png?v=1096559664)
+		no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 39px;
+	width: 133px;
+	text-indent: -9999em;
+	float: left;
+}
+
+#test-network-label-title {
+	float: left;
+	width: 80%;
+	text-align: center;
+}
+
+.paid-module-table {
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+.paid-module-table td {
+	padding: 3px 4px;
+}
+
+.paid-module-table .xj_col_1 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.paid-module-table .xj_col_2 {
+	min-width: 80px;
+}
+
+.paid-module-table .xj_col_3 {
+	padding: 3px 10px;
+}
+
+.paid-module-table .xj_col_4,.paid-module-table .xj_col_5 {
+	font-size: 11px;
+}
+
+.paid-module-table .xj_col_5 {
+	max-width: 90px;
+}
+
+.paid-module-table .xj_col_5 input {
+	width: 85px;
+}
+
+.paid-module-button {
+	padding: 1em 0;
+}
+
+.webmail-container p {
+	margin: 5px 0 0 0;
+}
+
+.invite-button,.invite-button:visited {
+	background: #fff no-repeat scroll 5px 5px;
+	border-width: 0 1px 1px 1px;
+	display: inline-block;
+	outline: none;
+	padding: 4px 5px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 5px;
+	line-height: 0px;
+	text-indent: -999em;
+	width: 39px;
+	height: 39px;
+}
+
+.invite-button:hover {
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.invite-button:active {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	position: relative;
+	top: 1px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee),
+		to(#ffffff) );
+	background: -moz-linear-gradient(top, #eeeeee, #ffffff);
+	filter: progid : DXImageTransform.Microsoft.gradient ( startColorstr =
+		'#eeeeee', endColorstr = '#ffffff' );
+}
+
+.invite-button-yahoo,.invite-button-yahoo:visited,.invite-button-yahoo:hover
+	{
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_yahoo.png?v=2517805156);
+}
+
+.invite-button-yahoo:active {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_yahoo.png?v=2517805156)
+		no-repeat scroll 5px 5px,
+		-webkit-gradient(linear, left top, left bottom, from(#eeeeee),
+		to(#ffffff) );
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_yahoo.png?v=2517805156)
+		no-repeat scroll 5px 5px, -moz-linear-gradient(top, #eeeeee, #ffffff);
+}
+
+.invite-button-gmail,.invite-button-gmail:visited,.invite-button-gmail:hover
+	{
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_gmail.png?v=4136070211);
+}
+
+.invite-button-gmail:active {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_gmail.png?v=4136070211)
+		no-repeat scroll 5px 5px,
+		-webkit-gradient(linear, left top, left bottom, from(#eeeeee),
+		to(#ffffff) );
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_gmail.png?v=4136070211)
+		no-repeat scroll 5px 5px, -moz-linear-gradient(top, #eeeeee, #ffffff);
+}
+
+.invite-button-hotmail,.invite-button-hotmail:visited,.invite-button-hotmail:hover
+	{
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_msn.png?v=466779741);
+}
+
+.invite-button-hotmail:active {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_msn.png?v=466779741)
+		no-repeat scroll 5px 5px,
+		-webkit-gradient(linear, left top, left bottom, from(#eeeeee),
+		to(#ffffff) );
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_msn.png?v=466779741)
+		no-repeat scroll 5px 5px, -moz-linear-gradient(top, #eeeeee, #ffffff);
+}
+
+.invite-button-aol,.invite-button-aol:visited,.invite-button-aol:hover {
+	background-image:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_aol.png?v=4155190801);
+}
+
+.invite-button-aol:active {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_aol.png?v=4155190801)
+		no-repeat scroll 5px 5px,
+		-webkit-gradient(linear, left top, left bottom, from(#eeeeee),
+		to(#ffffff) );
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/webmailContactLogos/logo_aol.png?v=4155190801)
+		no-repeat scroll 5px 5px, -moz-linear-gradient(top, #eeeeee, #ffffff);
+}
+
+.webmail-container {
+	border-width: 0 1px 1px 1px;
+	padding: 15px;
+	position: relative;
+	top: -6px;
+}
+
+.provider-container .provider {
+	height: 26px;
+	width: 26px;
+	padding: 2px 2px 0 0;
+	display: inline-block;
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/email-providers-sm.png?v=3947347592)
+		no-repeat scroll 0 0;
+	vertical-align: middle;
+}
+
+.provider-container .provider-gmail {
+	background-position: -30px 0;
+}
+
+.provider-container .provider-hotmail {
+	background-position: -60px 0;
+}
+
+.provider-container .provider-aol {
+	background-position: -90px 0;
+}
+
+#photo_page_body .photo-spinner {
+	background: transparent
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/spinner.gif?v=1353664345)
+		no-repeat center 60px;
+	width: 100%;
+}
+
+#photo_page_body .photo-spinner img {
+	visibility: hidden;
+}
+
+.comment div.description {
+	font-size: 1em;
+	margin-top: 0.7em !important;
+	margin-bottom: 0.7em !important;
+}
+
+.texteditor-container {
+	overflow: visible !important;
+}
+
+.ning-like {
+	margin-right: 15px;
+}
+
+.likebox {
+	float: left;
+	margin-bottom: 20px;
+	font-size: 1.1em;
+	_zoom: 1;
+}
+
+.left-panel .likebox {
+	margin-bottom: 4px;
+}
+
+.xg_widget_forum .likebox-ning:after,.left-panel .likebox-ning:after,.event_details .likebox-ning:after,.group_details .likebox-ning:after,.wpage .likebox-ning:after
+	{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.xg_widget_forum .likebox-ning,.left-panel .likebox-ning,.event_details .likebox-ning,.group_details .likebox-ning,.wpage .likebox-ning
+	{
+	*zoom: 1;
+	float: none;
+}
+
+.xg_widget_page .likebox .facebook-like,.xg_widget_forum .likebox .facebook-like,.left-panel .likebox .facebook-like,.event_details .likebox .facebook-like,.group_details .likebox .facebook-like,.wpage .likebox .facebook-like
+	{
+	padding-top: 5px;
+}
+
+.event_details .likebox,.group_details .likebox {
+	margin-bottom: 6px;
+}
+
+.event_details .likebox .facebook-like,.group_details .likebox .facebook-like
+	{
+	display: inline;
+}
+
+.like-button {
+	float: left;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-right: 3px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/like-grd.png?v=830410298)
+		repeat-x scroll 0 0 transparent;
+	border-width: 1px;
+}
+
+.like-button.liked {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/like-flt.png?v=955735662)
+		repeat scroll 0 7px transparent;
+}
+
+.like-button a {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	line-height: 146% !important;
+	outline: none;
+	padding: 2px 6px 3px 23px !important;
+	text-decoration: none !important;
+}
+
+.like-button a:hover {
+	background-color: #e1e1e1;
+	background-color: rgba(96, 96, 96, .1);
+}
+
+.like-count {
+	float: left;
+}
+
+.like-count a {
+	line-height: 140% !important;
+	padding: 4px 0 0 4px;
+	min-height: 25px;
+}
+
+.people_liked_list .member_item img.xg_lightborder {
+	width: 45px;
+	height: 45px;
+}
+
+.people_liked_list .member_item {
+	width: 100%;
+	height: 55px;
+	margin: 0 0 9px;
+}
+
+.people_liked_list div.member_item_detail {
+	padding: 0 0 0 60px;
+}
+
+.people_liked_list {
+	height: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.module_blog .blogpost h3 {
+	margin-bottom: 0;
+}
+
+.module_blog .postbody {
+	margin-top: 1em;
+}
+
+.module_blog .blogpost {
+	margin-bottom: 1.5em;
+}
+
+#xg_layout_column_1 .reactions .details,.xg_column.xg_span-4.xg_last .reactions .details,.module_video .reactions .details,.module_groups .reactions .details,.module_photo .reactions .details
+	{
+	display: none;
+}
+
+.reactions {
+	display: block;
+}
+
+.reactions a.like-link {
+	position: relative;
+	text-decoration: none !important;
+	outline: none;
+}
+
+.reactions a.like-link.hover .likes-number {
+	visibility: hidden;
+}
+
+.reactions a.like-link .change {
+	visibility: hidden;
+	position: absolute;
+	left: 20px;
+	white-space: nowrap;
+}
+
+.reactions a.like-link.hover .change {
+	visibility: visible;
+}
+
+.email_feature_fieldset {
+	padding: 10px 15px 0px 10px;
+	border: 1px solid #DDDDDD;
+}
+
+.beta_fieldset {
+	padding: 0px 15px 0px 10px;
+	border: 1px solid #DDDDDD;
+}
+
+.beta_icon {
+	width: 105px;
+	margin-right: 5px;
+}
+
+.beta_icon img {
+	max-width: 105px;
+}
+
+.beta_fieldset dt,.beta_fieldset dl,.beta_fieldset dd {
+	font-size: 1em !important;
+}
+
+.beta_fieldset dd {
+	margin-bottom: 0px !important;
+}
+
+.xg_floating_container.dropdown_menu {
+	margin: auto !important;
+	width: auto !important;
+	border: none !important;
+}
+
+.optionbox.xg_floating_container .xg_module_body {
+	padding: 7px 5px 5px 7px !important;
+}
+
+.optionbox .xg_module {
+	margin-bottom: 0 !important;
+}
+
+.optionbox {
+	margin-top: 3px !important;
+	-moz-box-shadow: 0px 3px 10px #888;
+	-webkit-box-shadow: 0px 3px 10px #888;
+	filter: progid : DXImageTransform.Microsoft.Shadow ( color = '#888888',
+		Direction = 135, Strength = 5 ) progid :
+		DXImageTransform.Microsoft.Shadow ( color = '#888888', Direction = 225,
+		Strength = 5 );
+}
+
+.dropdown_link .downarrow {
+	height: 12px;
+	background-position: 4px -292px;
+	border-width: 0 0 0 1px;
+	margin: 0 0 0 9px;
+	padding: 0 0 0 10px;
+	display: inline-block;
+	float: right;
+	text-indent: -9999px;
+	width: 3px;
+	*zoom: 1;
+	*display: inline;
+	color: transparent;
+}
+
+.navbutton {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/like-grd.png?v=830410298)
+		repeat-x scroll 0 0 transparent;
+	border-width: 1px;
+	padding: 3px 6px 3px 6px;
+	font-size: 0.9em;
+	margin: 0 0 10px 10px !important;
+}
+
+.navbutton a {
+	text-decoration: none !important;
+	font-weight: normal !important;
+	padding-bottom: 2px !important;
+}
+
+ul.actionlinks {
+	float: left;
+	list-style: none !important;
+	width: 100%;
+}
+
+ul.actionlinks li a {
+	text-decoration: none;
+}
+
+ul.actionlinks li {
+	list-style: none !important;
+	float: left;
+	position: relative;
+	margin: 0 1em 0 0;
+}
+
+.xg_ad {
+	clear: both;
+	margin: 0 auto;
+	overflow: visible;
+	width: 982px;
+}
+
+.xg_ad .xg_module,.xg_ad .xg_module_head,.xg_ad .xg_module_body {
+	background-color: transparent;
+	background-image: none;
+	border: none;
+}
+
+.xg_ad .xg_module_head {
+	height: 18px !important;
+	margin: 0 auto !important;
+	padding: 0 !important;
+}
+
+.xg_ad_placeholder {
+	text-align: center;
+	padding: 45px;
+	border: 4px dotted #ccc;
+	background: #fff !important;
+	color: #000 !important;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity = 50);
+	-ms-filter: "alpha(opacity=50)";
+}
+
+.xg_ad .action-secondary {
+	*padding-bottom: 13px;
+}
+
+.quickadd .nolegend p span.xg_append-2 {
+	padding-right: 94px;
+}
+
+.quickadd p label {
+	font-weight: bold;
+}
+
+.quickadd label {
+	margin-right: 10px;
+}
+
+.quickadd .wide {
+	width: 98%;
+}
+
+.quickadd .buttongroup .more_options {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.beta_page li {
+	padding: 5px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.dy-list .dy-list-img {
+	float: left;
+	padding-right: 10px;
+}
+
+.dy-list .dy-list-title {
+	display: block;
+}
+
+.beta_page .dy-list-content {
+	width: 350px;
+}
+
+.beta_page li .dy-list-content {
+	float: left;
+}
+
+.beta_page li span {
+	width: 100%;
+	float: left;
+	clear: left;
+}
+
+.beta_page li .dy-right span {
+	text-align: right;
+}
+
+.beta_page .xg_module_body>fieldset {
+	padding-left: 5px;
+}
+
+.beta_page span.beta-settings {
+	padding: 5px 0;
+	display: block;
+}
+
+.beta_page span.beta-settings a {
+	padding-right: 16px;
+}
+
+.adminmenu .xg_module {
+	border-bottom: 0 !important;
+}
+
+.adminmenu.optionbox.xg_floating_container .xg_module_body {
+	padding-bottom: 0 !important;
+}
+
+.adminmenu .xg_column {
+	margin: 0 !important;
+}
+
+.adminmenu .xg_span-4 {
+	width: 158px !important;
+}
+
+.adminmenu .dashboard ul {
+	padding-left: 10px;
+	font-size: .95em;
+}
+
+.adminmenu .dashboard li {
+	font-weight: bold;
+}
+
+.adminmenu .dashboard li ul li {
+	font-weight: normal;
+}
+
+#xj_admin_menu_link .downarrow {
+	border: 0 !important;
+	color: #959595;
+	position: absolute;
+	top: 8px;
+	font-size: 7px;
+	background-image: none;
+	text-indent: 0;
+	display: block;
+	*left: 0;
+}
+
+#xn_bar_menu_branding .xn_bar_icon {
+	overflow: visible;
+}
+
+#xj_admin_menu_link:hover .downarrow,#xj_admin_menu_link.xn_bar_icon-manage-active .downarrow
+	{
+	color: #0cf;
+}
+
+.contactnc .dy-input-medium,.xg_floating_module .contactnc textarea.dy-input-medium
+	{
+	width: 310px !important;
+}
+
+.xg_floating_module .contactnc textarea.dy-input-medium {
+	height: 4em;
+}
+
+.contactnc .promo p {
+	font-size: 1.15em;
+	line-height: 1.25em;
+	padding: 1em 1.2em 0 1.2em;
+	color: #5e5e5e;
+}
+
+.contactnc label.dy-label {
+	font-size: 0.9em;
+}
+
+.contactnc .summary {
+	padding: 1em 0 1em 1em;
+}
+
+.contactnc .foot {
+	font-size: 0.917em;
+	padding-bottom: 2em;
+}
+
+.contactnc .promo .ningbutton {
+	padding: 10px 5px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.contactnc .promo {
+	text-align: center;
+	position: absolute;
+	border-width: 0 0 0 1px;
+	right: 0;
+	width: 233px;
+	height: 100%;
+	background: #eee;
+}
+
+.contactnc .promoimg {
+	border: 1px #ccc solid;
+}
+
+.contactnc .logoimg {
+	border: 0;
+	margin-left: -0.5em;
+}
+
+.migratelb {
+	min-height: 475px;
+}
+
+.xg_floating_container.migratelb .xg_module_body {
+	margin-bottom: 0 !important;
+	margin: 0 !important;
+	padding: 0 0 0 7px !important;
+}
+
+p.buttongroup {
+	margin: 0.5em 0;
+	padding-top: .7em;
+	border-width: 1px 0 0;
+	text-align: left;
+	clear: both;
+	overflow: visible !important;
+}
+
+fieldset dl dd p.buttongroup {
+	font-size: 1em;
+}
+
+.xg_module_options fieldset p.buttongroup {
+	padding-top: 5px;
+	margin: 0;
+	border-color: #ddd;
+	font-size: 1.2em;
+}
+
+.xg_3col .xg_1col .xg_module_options fieldset p.buttongroup {
+	padding-left: 0;
+}
+
+.module_invite p.buttongroup {
+	border: none;
+	padding: 0;
+}
+
+.body_aplist .pagination li.right span {
+	padding: 0px !important;
+}
+
+.xg_widget_video_video_show .description,.xg_widget_photo_photo_show .description
+	{
+	margin-bottom: 15px;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid #ccc;
+}
+
+div.left-panel {
+	float: left;
+	clear: left;
+}
+
+div.right-panel {
+	float: right;
+	clear: right;
+}
+
+.share-links {
+	padding-top: 0;
+	float: left;
+}
+
+.share-links a {
+	margin: 0 5px 0 0;
+	float: left;
+}
+
+.object-detail {
+	float: right;
+	width: 100px;
+	word-wrap: break-word;
+}
+
+.xg_blog_detail .object-detail {
+	width: 300px;
+}
+
+.vid_container .object-detail {
+	width: 120px;
+}
+
+.xg_blog_detail .postbody {
+	margin-bottom: 2em;
+}
+
+.facebook-like {
+	border: medium none;
+	width: 100px;
+	height: 21px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 0;
+	*z-index: 1;
+}
+
+div.favorite-box {
+	float: left;
+	clear: left;
+}
+
+div.favorite-box a {
+	float: left;
+}
+
+.xg_widget_main_likesettings .dy-form-2 dd {
+	margin-bottom: 0;
+	margin-left: 25px;
+	padding: 0;
+}
+
+.xg_span-7#column1 #xg_module_account {
+	margin-right: 10px;
+}
+
+.xg_widget_photo_album .xg_span-16 .xg_module_body .block {
+	*width: 330px;
+}
+
+.xg_reset .xg_module_body {
+	font-size: 1.1em;
+}
+
+.xg_reset .xg_module_body ul,.xg_reset .xg_module_body ol,.xg_reset .xg_module_body dt,.xg_reset .xg_module_body dd,.xg_reset .xg_module_body dl,.xg_reset .xg_module_body td,.xg_reset .xg_module_body th,.xg_reset .xg_module_body li,.xg_reset .xg_module_body p,.xg_reset .xg_module_body textarea,.xg_reset .xg_module_body input
+	{
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: .4em;
+}
+
+.xg_reset .xg_module_body ul,.description ul,.postbody ul {
+	list-style: disc outside;
+}
+
+.xg_reset .xg_module_body ol,.description ol,.postbody ol {
+	list-style: decimal outside;
+}
+
+.xg_reset .xg_module_body li,.description li,.postbody li {
+	display: list-item;
+	margin-left: 2.5em;
+}
+
+.xg_reset .xg_module_body h1,.xg_reset .xg_module_body h3 {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+.xg_reset .xg_module_body h3 {
+	font-size: 1.09em;
+}
+
+.xg_reset .xg_module_body img {
+	margin: 5px 8px;
+	vertical-align: middle;
+}
+
+.xg_reset .xg_module_body .texteditor img {
+	margin: 0;
+	vertical-align: baseline;
+}
+
+.xg_reset blockquote,.xg_reset pre {
+	margin: 1em;
+}
+
+.xg_reset .xg_module_body embed,.xg_reset .xg_module_body object {
+	display: block;
+	margin: .8em auto;
+	*margin: 0 auto;
+}
+
+div.description {
+	font-size: 1.2em;
+}
+
+div.description * {
+	font-size: 1.0em;
+}
+
+#xg_ustream_tab {
+	position: fixed;
+	top: 25%;
+	border: 1px solid #000;
+	padding: 3px;
+	cursor: pointer;
+	background-color: #EFF1EE;
+	width: 20px;
+	z-index: 1000;
+}
+
+#xg_ustream_tab.xg_ustream_position_left {
+	left: 0;
+	margin-left: -1px;
+}
+
+#xg_ustream_tab.xg_ustream_position_right {
+	right: 0;
+	margin-right: -1px;
+}
+
+#xg_ustream_tab .xg_ustream_logo,#xg_ustream_tab .xg_ustream_status {
+	display: block;
+	margin: 3px auto;
+}
+
+#xg_lightbox_ustreamChannel .xg_floating_container {
+	margin-top: -250px;
+	margin-left: -475px;
+	width: 916px;
+}
+
+#xg_lightbox_ustreamChannel .xg_ustream_video,#xg_lightbox_ustreamChannel .xg_ustream_chat
+	{
+	float: left;
+	margin: 3px;
+}
+
+#xg_ustream_tab .xg_channel_online {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/online.png?v=180563894)
+		no-repeat scroll 3px 50% transparent;
+	text-indent: -9999px;
+	width: 20px;
+}
+
+#xg_ustream_tab .xg_channel_offline {
+	background:
+		url(http://static.ning.com/socialnetworkmain/widgets/index/gfx/icon/offline.png?v=1512255463)
+		no-repeat scroll 3px 50% transparent;
+	text-indent: -9999px;
+	width: 20px;
+}

@@ -1,0 +1,89 @@
+// This file defines the expand-collapse behavior
+
+.layer1 {
+  margin: 0;
+  padding: 0;
+}
+
+.titleHeading {
+  margin: 1px;
+  color: #fff;
+  padding:5px; 
+  padding-left:20px;
+  position: relative;
+  font-size: 13px;
+  background:#369 url('../images/skin/Icon_expand.gif') center left no-repeat;
+}
+
+
+.heading {
+  margin: 1px;
+  color: #fff;
+  float:left;
+  position: relative;
+  font-size: 13px;
+  background:#369 
+}
+
+.open {
+  background:#369 url('../images/skin/Icon_expand.gif') center left no-repeat; 
+}
+
+.closed {
+  background:#369 url('../images/skin/Icon_collapse.gif') center left no-repeat; 
+}
+
+.content {
+  padding: 5px 10px;
+  background-color:#fafafa;
+  list-style-type:none;
+  margin-bottom:10px;
+}
+
+.expanded {
+  	background:#369 url('../images/skin/ui-icons_ffffff_256x240.png') no-repeat;
+	float:right;
+	height:17px;
+	width:16px;
+	overflow:hidden;
+	text-indent:-99999px;
+	background-position:-35px -76px;
+}
+
+ 
+.maximize{
+	background:#369 url('../images/skin/ui-icons_ffffff_256x240.png') no-repeat;
+	float:right;
+	height:17px;
+	width:16px;
+	overflow:hidden;
+	text-indent:-99999px;
+	background-position:-35px -76px;
+	 
+}
+
+.restore{
+	background-image:#369 url(ui-lightness/images/ui-icons_ffffff_256x240.png)no-repeat;
+	float:right;
+	height:16px;
+	width:16px;
+	overflow:hidden;
+	text-indent:-99999px;
+	background-position:-49px -76px;
+}
+/* Should not be here, but is okay for now */
+
+.iconBook {
+	background:#fff url('../images/IconBook.png') center left no-repeat; 
+	height: 130px; width: 144px
+}
+
+.iconFolder {
+  background:#fff url('../images/IconFolder.png') center left no-repeat;
+  height: 130px; width: 144px 
+}
+
+.iconProduct {
+  background:#fff url('../images/IconProduct.png') center left no-repeat;
+  height: 130px; width: 144px 
+}

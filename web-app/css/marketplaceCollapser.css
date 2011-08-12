@@ -1,0 +1,52 @@
+// This file defines the expand-collapse behavior
+
+
+.layer1 {
+  margin: 0;
+  padding: 0;
+}
+
+.titleHeading {
+  margin: 1px;
+  padding:3px; 
+  padding-left:10px;
+  position: relative;
+  font-size: 13px;
+  background: #fff url(../images/blockTitleOpen.png) no-repeat; 
+  height: 30px;
+}
+
+
+.labelHeading {
+ font-size:15px;
+ padding: 4px 4px 4px 14px; 
+ font-weight: bold; 
+ font-family: sans-serif;
+}
+
+.content {
+  padding: 5px 10px;
+  list-style-type:none;
+  margin-bottom:10px;
+  font-family: sans-serif;
+  
+}
+
+
+.marketplacePanel {
+	background: #fff url(../images/bloc_conf.png) repeat-x; 
+	width: 318px; 
+	height: 240px; 
+	float:left; 
+	margin: 2px;
+}
+
+.expand {
+  background: #fff url(../images/blockTitleOpen.png) no-repeat; 
+  height: 30px;
+}
+
+.restore{
+  background: #fff url(../images/blockTitleClosed.png) no-repeat; 
+  height: 30px;
+}
