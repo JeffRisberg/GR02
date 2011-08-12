@@ -136,6 +136,7 @@ class BootStrap {
     createBasicUsersIfRequired()
     createPipelineFootsIfRequired()
     createProductsIfRequired()
+    createContentQualifiersIfRequired()
     createContentItemsIfRequired()
 
     switch (Environment.current) {
@@ -155,7 +156,6 @@ class BootStrap {
     }
     createCustomersIfRequired()
     createComponentsIfRequired()
-    createContentQualifiersIfRequired()
   }
 
   def destroy = {
@@ -632,6 +632,50 @@ class BootStrap {
     }
     else {
       println "Existing product attribute values, skipping creation."
+    }
+  }
+
+  void createContentQualifiersIfRequired() {
+    if (ContentQualifier.count() == 0) {
+      println "Fresh Database. Creating contentQualifiers."
+
+      ContentQualifier contentQualifier
+
+      contentQualifier = new ContentQualifier(name: "Water", type: "r", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Air", type: "r", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Energy", type: "r", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Materials", type: "r", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+
+      contentQualifier = new ContentQualifier(name: "Ecosystem Research", type: "s", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Cleantech Innovation", type: "s", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Infrastructure & Facilities", type: "s", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Enterprise Sustainability", type: "s", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Public Policy & Regulation", type: "s", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+
+      contentQualifier = new ContentQualifier(name: "Solar Energy", type: "m", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Wind Energy", type: "m", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Smart Grid", type: "m", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Energy Storage", type: "m", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Electric Vehicles", type: "m", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+      contentQualifier = new ContentQualifier(name: "Green Building", type: "m", imgUrl: '/images/boxShadow.png')
+      contentQualifier.save()
+    }
+    else {
+      println "Existing contentQualifiers, skipping creation."
     }
   }
 
@@ -1814,50 +1858,6 @@ class BootStrap {
     }
     else {
       println "Existing menu items, skipping creation."
-    }
-  }
-
-  void createContentQualifiersIfRequired() {
-    if (ContentQualifier.count() == 0) {
-      println "Fresh Database. Creating contentQualifiers."
-
-      ContentQualifier contentQualifier
-
-      contentQualifier = new ContentQualifier(name: "Water", type: "r", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Air", type: "r", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Energy", type: "r", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Materials", type: "r", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-
-      contentQualifier = new ContentQualifier(name: "Ecosystem Research", type: "s", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Cleantech Innovation", type: "s", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Infrastructure & Facilities", type: "s", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Enterprise Sustainability", type: "s", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Public Policy & Regulation", type: "s", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-
-      contentQualifier = new ContentQualifier(name: "Solar Energy", type: "m", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Wind Energy", type: "m", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Smart Grid", type: "m", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Energy Storage", type: "m", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Electric Vehicles", type: "m", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Green Building", type: "m", imgUrl: '/images/boxShadow.png')
-      contentQualifier.save()
-    }
-    else {
-      println "Existing contentQualifier, skipping creation."
     }
   }
 }
