@@ -641,9 +641,11 @@ class BootStrap {
 
       ContentQualifier contentQualifier
 
-      contentQualifier = new ContentQualifier(name: "Water", type: "r", imgUrl: '/images/boxShadow.png')
+      contentQualifier = new ContentQualifier(name: "Water", type: "r", imgUrl: '/images/boxShadow.png',
+          keys: 'water')
       contentQualifier.save()
-      contentQualifier = new ContentQualifier(name: "Air", type: "r", imgUrl: '/images/boxShadow.png')
+      contentQualifier = new ContentQualifier(name: "Air", type: "r", imgUrl: '/images/boxShadow.png',
+          keys: 'air')
       contentQualifier.save()
       contentQualifier = new ContentQualifier(name: "Energy", type: "r", imgUrl: '/images/boxShadow.png')
       contentQualifier.save()
