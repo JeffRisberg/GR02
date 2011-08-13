@@ -898,7 +898,7 @@ class BootStrap {
       contact.save()
       contentSection = new ContentSection(address: address, contact: contact, website: "www.valleywater.org")
       contentItem = new ContentItem(approvedFlag: true, name: "Santa Clara Valley Water District",
-          description: "Primary water agency",
+          description: "County-level water agency",
           partnerFlag: true,
           contentItemType: ContentItemType.ORGANIZATION, paid: true)
       contentItem.addToContentSections(contentSection)
