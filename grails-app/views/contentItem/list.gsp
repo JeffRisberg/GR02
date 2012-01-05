@@ -41,7 +41,7 @@
                             <td>${fieldValue(bean: contentItemInstance, field: "contentItemType")}</td>
                 
                             <td><g:checkBox name="partnerFlag" value="${contentItemInstance.partnerFlag}" 
-                            onclick="${remoteFunction(action:'togglePartnerFlag', id:contentItemInstance.id, params:[partnerFlag:this.value]}" />
+                            onclick="${remoteFunction(action:'togglePartnerFlag', id:contentItemInstance.id, params:'\'partnerFlag=\' + this.checked')}" />
                             </td>                        
                             <td><g:checkBox name="paidFlag" value="${contentItemInstance.paidFlag}" 
                              onclick="${remoteFunction(action:'togglePaidFlag', id:contentItemInstance.id, params:'\'paidFlag=\' + this.checked')}" />
