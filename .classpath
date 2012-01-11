@@ -8,17 +8,18 @@
 	<classpathentry kind="src" path="grails-app/services"/>
 	<classpathentry kind="src" path="grails-app/jobs"/>
 	<classpathentry kind="src" path="grails-app/taglib"/>
-	<classpathentry kind="src" path="test/integration"/>
 	<classpathentry kind="src" path="test/unit"/>
 	<classpathentry kind="src" path="test/selenium"/>
+	<classpathentry kind="src" path="test/integration"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="com.springsource.sts.grails.core.CLASSPATH_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Grails Library"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Grails Support Library"/>
-	<classpathentry kind="lib" path="C:/Users/Jeffrey Risberg/.grails/1.3.5/projects/GR02/plugin-classes"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Selenium Library"/>
 	<classpathentry kind="lib" path="lib/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/mail-1.4.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.16-bin.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Selenium Library"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Risberg/.grails/1.3.7/projects/GR02/plugin-classes"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>	
 	<classpathentry kind="output" path="web-app/WEB-INF/classes"/>
 </classpath>
