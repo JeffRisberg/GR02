@@ -1,6 +1,6 @@
 package com.incra
 
-import java.sql.Timestamp 
+import java.sql.Timestamp
 
 /**
  * The <i>LogEntry</i> entity records the execution of a controller/action pair at a specific time.
@@ -16,7 +16,7 @@ import java.sql.Timestamp
  * @since 09/28/10
  */
 class LogEntry {
-  
+
   User user
   LogEntryKey key
   LogEntrySeverity severity
@@ -32,9 +32,9 @@ class LogEntry {
   String parameter10
   Timestamp startTimestamp
   Timestamp endTimestamp;
-  
+
   static constraints = {
-    user(nullable: true)   
+    user(nullable: true)
     key()
     severity()
     parameter1(nullable: true)
@@ -50,8 +50,8 @@ class LogEntry {
     startTimestamp(nullable: true)
     endTimestamp(nullable: true)
   }
-  
+
   String toString() {
-    "User ${user.userId} ${key}"
+    "User ${user?.id} ${key}"
   }
 }
